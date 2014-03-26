@@ -1,0 +1,21 @@
+/* line 42, icons/*.png */
+.icons-sprite, .icons-fb, .sbm-btn2223123 {
+  background: url('../img/icons.png') no-repeat;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-fb {
+  background-position: 0 0;
+  height: 20px;
+  width: 82px;
+}
+
+/* line 7, ../sass/_sprite.scss */
+.sbm-btn2223123 {
+  background-position: 0 0;
+}
+
+/* line 1, ../sass/_main.scss */
+.a {
+  color: red;
+}
