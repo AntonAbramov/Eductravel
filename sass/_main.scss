@@ -1,3 +1,19 @@
-.a {
-	color:red;
+body {
+	background: url(../img/main-bg.jpg) no-repeat 50% 48px #eeeeee;
+;
+}
+.cf {
+	&:after {
+		content:"";
+		display: table;
+		clear:both;
+	}
+}
+.w960 {
+	max-width: 960px;
+	margin:0 auto;
+	@extend .cf;
+}
+.pt8 {
+	padding-top:8px;
 }

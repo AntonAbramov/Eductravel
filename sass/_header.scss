@@ -1,0 +1,106 @@
+.header {
+	background: #f6f6f6;
+	box-shadow: 0 2px 2px rgba(0,0,0, .07);
+	height:48px;
+	margin:0 0 20px;
+	.header-top-section {
+		float:right;
+		min-width: 340px;
+		padding-top:10px;
+		select {
+			float:left;
+		}
+		ul {
+			float:right;
+			@extend .cf;
+			li {
+				background: #ccc;
+				float:left;
+				&:hover {
+					background: #0082ca;
+				}
+				&:last-child a {
+					width: auto;
+				}
+				&:nth-child(2n) {
+					background: #d7d7d7;
+					&:hover {
+						background: #0082ca;
+					}
+				}
+			}
+			a {
+				width: 30px;
+				height:30px;
+				padding:5px;
+				display: block;
+				font-size: 12px;
+				color:#fff;
+				text-decoration: none;
+				text-align: center;
+				i {
+					line-height:30px;
+					position:relative;
+				}
+				.icons-fb {
+					top:2px;
+				}
+				.icons-tw {
+					top:4px;
+				}
+				.icons-mail {
+					top:3px;
+				}
+				.icons-skype {
+					top:2px;
+				}
+				.icons-chat {
+					top:3px;
+				}
+			}
+		}
+	}
+}
+.top-contacts-section {
+	margin:0 0 20px;
+	.logo, .top-img-container {
+		float:left;
+	}
+	.top-img-container {
+		border-left:1px solid #cecece;
+		box-shadow:1px 0 0 #fff inset;
+		height:80px;
+		margin-left:20px;
+		padding-left:20px;
+	}
+	.top-contacts {
+		color:#333333;
+		float:right;
+		.icons-flag {
+			margin-right:7px;
+			top:3px;
+			position: relative;
+		}
+		.adress {
+			float:left;
+			text-align: right;
+			padding-top:8px;
+			div {
+				margin:0 0 2px;
+			}
+		}
+		.tel-holder {
+			float:right;
+			padding-left:20px;
+			margin-left:20px;
+			border-left:1px solid #cecece;
+			box-shadow:1px 0 0 #fff inset;
+			font-weight: bold;
+			font-size:30px;
+			sub {
+				color:#188ece;
+			}
+		}
+	}
+
+}

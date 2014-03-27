@@ -401,3 +401,15 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}

@@ -1,21 +1,369 @@
-/* line 42, icons/*.png */
-.icons-sprite, .icons-fb, .sbm-btn2223123 {
+/* line 186, icons/*.png */
+.icons-sprite, .icons-answers, .icons-chat, .icons-fb, .icons-flag, .icons-footer-chat, .icons-footer-fb, .icons-footer-mail, .icons-footer-skype, .icons-footer-tw, .icons-info, .icons-language, .icons-left-small, .icons-left, .icons-mail, .icons-right-small, .icons-right, .icons-services, .icons-skype, .icons-tw, .sbm-btn2223123 {
   background: url('../img/icons.png') no-repeat;
 }
 
 /* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-answers {
+  background-position: 0 -159px;
+  height: 41px;
+  width: 40px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-chat {
+  background-position: 0 -292px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icons-fb {
+  background-position: 0 -392px;
+  height: 15px;
+  width: 7px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-flag {
+  background-position: 0 -230px;
+  height: 18px;
+  width: 27px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-footer-chat {
+  background-position: 0 -141px;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-footer-fb {
+  background-position: 0 -306px;
+  height: 18px;
+  width: 11px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-footer-mail {
+  background-position: 0 -324px;
+  height: 14px;
+  width: 18px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-footer-skype {
+  background-position: 0 -82px;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-footer-tw {
+  background-position: 0 -200px;
+  height: 15px;
+  width: 18px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-info {
+  background-position: 0 -100px;
+  height: 41px;
+  width: 40px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-language {
   background-position: 0 0;
-  height: 20px;
-  width: 82px;
+  height: 41px;
+  width: 40px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-left-small {
+  background-position: 0 -360px;
+  height: 16px;
+  width: 10px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-left {
+  background-position: 0 -248px;
+  height: 22px;
+  width: 14px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-mail {
+  background-position: 0 -338px;
+  height: 11px;
+  width: 16px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-right-small {
+  background-position: 0 -376px;
+  height: 16px;
+  width: 10px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-right {
+  background-position: 0 -270px;
+  height: 22px;
+  width: 14px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-services {
+  background-position: 0 -41px;
+  height: 41px;
+  width: 40px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-skype {
+  background-position: 0 -215px;
+  height: 15px;
+  width: 15px;
+}
+
+/* line 60, ../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icons-tw {
+  background-position: 0 -349px;
+  height: 11px;
+  width: 15px;
 }
 
 /* line 7, ../sass/_sprite.scss */
 .sbm-btn2223123 {
-  background-position: 0 0;
+  background-position: 0 -392px;
 }
 
+/* line 10, ../sass/_sprite.scss */
+.icon {
+  text-indent: -9999em;
+  display: inline-block;
+}
+
+/* line 1, ../sass/_header.scss */
+.header {
+  background: #f6f6f6;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.07);
+  height: 48px;
+  margin: 0 0 20px;
+}
+/* line 6, ../sass/_header.scss */
+.header .header-top-section {
+  float: right;
+  min-width: 340px;
+  padding-top: 10px;
+}
+/* line 10, ../sass/_header.scss */
+.header .header-top-section select {
+  float: left;
+}
+/* line 13, ../sass/_header.scss */
+.header .header-top-section ul {
+  float: right;
+}
+/* line 16, ../sass/_header.scss */
+.header .header-top-section ul li {
+  background: #ccc;
+  float: left;
+}
+/* line 19, ../sass/_header.scss */
+.header .header-top-section ul li:hover {
+  background: #0082ca;
+}
+/* line 22, ../sass/_header.scss */
+.header .header-top-section ul li:last-child a {
+  width: auto;
+}
+/* line 25, ../sass/_header.scss */
+.header .header-top-section ul li:nth-child(2n) {
+  background: #d7d7d7;
+}
+/* line 27, ../sass/_header.scss */
+.header .header-top-section ul li:nth-child(2n):hover {
+  background: #0082ca;
+}
+/* line 32, ../sass/_header.scss */
+.header .header-top-section ul a {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+/* line 41, ../sass/_header.scss */
+.header .header-top-section ul a i {
+  line-height: 30px;
+  position: relative;
+}
+/* line 45, ../sass/_header.scss */
+.header .header-top-section ul a .icons-fb {
+  top: 2px;
+}
+/* line 48, ../sass/_header.scss */
+.header .header-top-section ul a .icons-tw {
+  top: 4px;
+}
+/* line 51, ../sass/_header.scss */
+.header .header-top-section ul a .icons-mail {
+  top: 3px;
+}
+/* line 54, ../sass/_header.scss */
+.header .header-top-section ul a .icons-skype {
+  top: 2px;
+}
+/* line 57, ../sass/_header.scss */
+.header .header-top-section ul a .icons-chat {
+  top: 3px;
+}
+
+/* line 64, ../sass/_header.scss */
+.top-contacts-section {
+  margin: 0 0 20px;
+}
+/* line 66, ../sass/_header.scss */
+.top-contacts-section .logo, .top-contacts-section .top-img-container {
+  float: left;
+}
+/* line 69, ../sass/_header.scss */
+.top-contacts-section .top-img-container {
+  border-left: 1px solid #cecece;
+  box-shadow: 1px 0 0 #fff inset;
+  height: 80px;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+/* line 76, ../sass/_header.scss */
+.top-contacts-section .top-contacts {
+  color: #333333;
+  float: right;
+}
+/* line 79, ../sass/_header.scss */
+.top-contacts-section .top-contacts .icons-flag {
+  margin-right: 7px;
+  top: 3px;
+  position: relative;
+}
+/* line 84, ../sass/_header.scss */
+.top-contacts-section .top-contacts .adress {
+  float: left;
+  text-align: right;
+  padding-top: 8px;
+}
+/* line 88, ../sass/_header.scss */
+.top-contacts-section .top-contacts .adress div {
+  margin: 0 0 2px;
+}
+/* line 92, ../sass/_header.scss */
+.top-contacts-section .top-contacts .tel-holder {
+  float: right;
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #cecece;
+  box-shadow: 1px 0 0 #fff inset;
+  font-weight: bold;
+  font-size: 30px;
+}
+/* line 100, ../sass/_header.scss */
+.top-contacts-section .top-contacts .tel-holder sub {
+  color: #188ece;
+}
+
+/* line 1, ../sass/_navigation.scss */
+#nav {
+  float: left;
+}
+/* line 3, ../sass/_navigation.scss */
+#nav li {
+  float: left;
+}
+/* line 6, ../sass/_navigation.scss */
+#nav li a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid #d5d5d5;
+  line-height: 48px;
+}
+/* line 16, ../sass/_navigation.scss */
+#nav li a:hover, #nav li a:focus {
+  background: #fbfbfb;
+}
+/* line 19, ../sass/_navigation.scss */
+#nav li a.active {
+  box-shadow: 1px 0 #fff inset;
+  background: #ec8435;
+  color: #fff;
+  cursor: default;
+  box-shadow: none;
+}
+/* line 25, ../sass/_navigation.scss */
+#nav li a.active:hover, #nav li a.active:focus {
+  background: #ec8435;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 34, ../sass/_navigation.scss */
+  #menu {
+    width: 1.4em;
+    display: block;
+    font-size: 1.35em;
+    text-align: center;
+  }
+
+  /* line 40, ../sass/_navigation.scss */
+  #nav.js {
+    display: none;
+  }
+
+  /* line 43, ../sass/_navigation.scss */
+  #nav {
+    width: 100%;
+    list-style: none;
+  }
+
+  /* line 47, ../sass/_navigation.scss */
+  #nav li {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 53, ../sass/_navigation.scss */
+  #menu {
+    display: none;
+  }
+}
 /* line 1, ../sass/_main.scss */
-.a {
-  color: red;
+body {
+  background: url(../img/main-bg.jpg) no-repeat 50% 48px #eeeeee;
+}
+
+/* line 6, ../sass/_main.scss */
+.cf:after, .header .header-top-section ul:after, .w960:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 12, ../sass/_main.scss */
+.w960 {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* line 17, ../sass/_main.scss */
+.pt8 {
+  padding-top: 8px;
 }
