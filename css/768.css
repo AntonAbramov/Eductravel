@@ -1,0 +1,21 @@
+/* line 2, ../sass/768.scss */
+.tab-content .tab {
+  display: none;
+}
+
+/* line 8, ../sass/768.scss */
+.main-interactive-section .main-interactive-block {
+  width: 25%;
+  border-left: 1px solid #e6e6e6;
+}
+/* line 11, ../sass/768.scss */
+.main-interactive-section .main-interactive-block:first-child {
+  border-left: none;
+}
+
+/* line 17, ../sass/768.scss */
+.footer .footer-block {
+  width: 25%;
+  float: left;
+  padding: 0 10px;
+}

@@ -1,0 +1,32 @@
+.btn {
+	border-radius: 2px;
+	padding: 5px 10px;
+	text-align: left;
+	&.btn-icon {
+		padding-left:40px;
+		position:relative;
+	}
+	.icon {
+		margin-right: 5px;
+		position: absolute;
+		top:8px;
+	}
+	.icons-settings {
+		left:8px;
+	}
+	.icons-exit {
+		left:13px;
+	}
+	&.orange {
+		background: #ec8435;
+		color: #fff;
+		border: 1px solid #d3630d;
+		font-size: 18px;
+		vertical-align: middle;
+		height:35px;
+		&:hover, &:focus {
+			background: #ff9c50;
+			border-color:#f0893a;
+		}
+	}
+}

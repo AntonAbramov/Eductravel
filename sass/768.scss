@@ -1,0 +1,22 @@
+.tab-content {
+	.tab {
+		display:none;
+	}
+}
+.main-interactive-section {
+
+	.main-interactive-block {
+		width:25%;
+		border-left:1px solid #e6e6e6;
+		&:first-child {
+			border-left:none;
+		}
+	}
+}
+.footer {
+	.footer-block {
+		width:25%;
+		float:left;
+		padding:0 10px;
+	}
+}
