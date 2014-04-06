@@ -1,0 +1,118 @@
+.process-map {
+
+	.select-choose {
+		vertical-align: top;
+	}
+	.map {
+		margin-left:60px;
+		background: url(../img/map-list.png) no-repeat;
+		min-height:140px;
+		position:relative;
+		display: inline-block;
+		width:740px;
+		> div {
+			position:absolute;
+			z-index: 1;
+			&.gcse {
+				left:12px;
+				top:-2px;
+			}
+			&.alevel {
+				left:305px;
+				top:-2px;
+			}
+			&.ib {
+				left:305px;
+				top:33px;
+			}
+			&.fc {
+				left:305px;
+				top:71px;
+			}
+			&.premasters {
+				left:305px;
+				top:106px;
+			}
+			&.baca {
+				left:592px;
+				top:-2px;
+			}
+			&.prof {
+				left:592px;
+				top:33px;
+			}
+			&.masters {
+				left:592px;
+				top:71px;
+			}
+			&.mba {
+				left:592px;
+				top:106px;
+			}
+
+			&:hover {
+				z-index: 10;
+				.name {
+					color:#ec8435;
+				}
+				.name:before {
+					content:"";
+					@include icons-sprite(arrow-orange);
+					width:9px;
+					height:13px;
+					position:absolute;
+					left:-12px;
+					top:2px;
+				}
+				.text {
+					display: block;
+				}
+			}
+			.text {
+				position:absolute;
+				top:30px;
+				display: none;
+				font-size: 14px;
+				left:10px;
+				padding:20px;
+				background: #fff;
+				border:1px solid #e8e8e8;
+				box-shadow: 0 0 5px rgba(0,0,0, .1);
+				width:375px;
+				z-index: 10;
+				&:before {
+					content:"";
+					border:11px solid;
+					border-color:transparent transparent #e8e8e8 transparent;
+					top:-22px;
+					left:19px;
+					position:absolute;
+					z-index: 1;
+
+				}
+				&:after {
+					content:"";
+					border:10px solid;
+					border-color:transparent transparent #fff transparent;
+					top:-20px;
+					left:20px;
+					position:absolute;
+					z-index: 2;
+
+				}
+			}
+		}
+	}
+
+	.more-info {
+		text-align: center;
+		font-size: 14px;
+		a {
+			color:#188ece;
+			text-decoration: underline;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

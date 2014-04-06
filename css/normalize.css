@@ -22,7 +22,9 @@ section,
 summary {
     display: block;
 }
-
+p {
+	margin:0 0 15px;
+}
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */

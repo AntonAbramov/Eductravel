@@ -2,6 +2,7 @@
 	border-radius: 2px;
 	padding: 5px 10px;
 	text-align: left;
+	vertical-align: top;
 	&.btn-icon {
 		padding-left:40px;
 		position:relative;
@@ -27,6 +28,17 @@
 		&:hover, &:focus {
 			background: #ff9c50;
 			border-color:#f0893a;
+		}
+	}
+	&.gray {
+		color: #fff;
+		background: #aeaeae;
+		border:1px solid #a0a0a0;
+		font-size: 18px;
+		height:35px;
+		&:hover, &:focus {
+			background: #c8c8c8;
+			border:1px solid #a0a0a0;
 		}
 	}
 }

@@ -1,0 +1,30 @@
+.enter-section {
+	background: #f6f6f6;
+	padding:5px;
+	border:1px solid #ddd;
+	.enter-form-list {
+		li {
+			margin:0 0 10px;
+			position:relative;
+			label {
+				display: block;
+			}
+			input[type="text"],
+			input[type="password"] {
+				min-width: 240px;
+			}
+			.btn {
+				margin-right:10px;
+				margin-bottom:5px;
+			}
+			a {
+				color:#ec8435;
+				font-size: 14px;
+				text-decoration: underline;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+}

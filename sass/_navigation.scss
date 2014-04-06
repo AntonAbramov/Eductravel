@@ -1,8 +1,11 @@
+#menu {
+	float:left;
+}
 #nav {
 	float:left;
 	li {
 		float:left;
-
+		background: #f6f6f6;
 		a {
 			display: block;
 			text-decoration: none;

@@ -13,3 +13,60 @@
 		padding:0 10px;
 	}
 }
+.container-sidebar-right {
+	.content {
+		margin-right: 320px;
+		min-height: 500px;
+		margin-bottom:0;
+	}
+	.sidebar {
+		position: absolute;
+		width:300px;
+		top:0;
+		bottom:0;
+		right:0;
+	}
+}
+.enter-section {
+	padding:20px;
+	.enter-form-list {
+		li {
+			padding-left:85px;
+			label {
+				position:absolute;
+				left:0;
+				top:4px;
+				z-index: 2;
+			}
+			.btn {
+				margin-bottom:0;
+			}
+		}
+	}
+}
+.top-contacts-section {
+	text-align: left;
+	.logo, .adress {
+		float:left;
+	}
+	.top-img-container {
+		float:left;
+	}
+	.top-contacts {
+		float:right;
+		.icons-flag {
+
+		}
+		.adress {
+			float:left;
+			text-align: right;
+		}
+		.tel-holder {
+			float:right;
+			padding-left:20px;
+			margin-left:20px;
+			border-left:1px solid #cecece;
+			box-shadow:1px 0 0 #fff inset;
+		}
+	}
+}

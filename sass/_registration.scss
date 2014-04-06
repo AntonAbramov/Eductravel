@@ -1,0 +1,36 @@
+.registration-section {
+	padding:15px;
+	background: #f6f6f6;
+	border:1px solid #ddd;
+	h3 {
+		font-size:20px;
+		border-bottom:1px solid #ddd;
+		padding-bottom:5px;
+	}
+	.registration-fields {
+		margin:0 0 30px;
+	}
+	.field-control {
+		position:relative;
+		input[type='text'],
+		input[type='password'],
+		textarea {
+			width:270px;
+		}
+		textarea {
+			width:270px!important;
+		}
+		.msg {
+			display: block;
+
+			left:280px;
+			top:9px;
+			&.valid {
+				color:#5cbd00;
+			}
+			&.error {
+				color:#f01e1e;
+			}
+		}
+	}
+}

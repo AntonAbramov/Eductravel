@@ -62,39 +62,33 @@
 	}
 }
 .top-contacts-section {
+	text-align: center;
 	margin:0 0 20px;
-	.logo, .top-img-container {
-		float:left;
-	}
 	.top-img-container {
 		border-left:1px solid #cecece;
 		box-shadow:1px 0 0 #fff inset;
 		height:80px;
 		margin-left:20px;
 		padding-left:20px;
+		display: none;
 	}
 	.top-contacts {
 		color:#333333;
-		float:right;
 		.icons-flag {
 			margin-right:7px;
 			top:3px;
 			position: relative;
 		}
 		.adress {
-			float:left;
-			text-align: right;
+
 			padding-top:8px;
 			div {
 				margin:0 0 2px;
 			}
 		}
 		.tel-holder {
-			float:right;
-			padding-left:20px;
-			margin-left:20px;
-			border-left:1px solid #cecece;
-			box-shadow:1px 0 0 #fff inset;
+
+
 			font-weight: bold;
 			font-size:30px;
 			font-family: $bold;

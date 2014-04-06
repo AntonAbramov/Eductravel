@@ -6,3 +6,13 @@
 .slider .slidesjs-slide .slider-more {
   display: block;
 }
+
+/* line 13, ../sass/992.scss */
+.top-contacts-section .top-img-container {
+  display: block;
+}
+
+/* line 19, ../sass/992.scss */
+.registration-section .field-control .msg {
+  position: absolute;
+}
