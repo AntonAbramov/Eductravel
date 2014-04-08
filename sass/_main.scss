@@ -622,3 +622,37 @@ input[type="password"]{
 		}
 	}
 }
+.custom-select-box {
+	display:inline-block;
+	position:relative;
+	height:25px;
+	border:1px solid #ddd;
+	background: #fff;
+	&:after {
+		content:"";
+		background: url(../img/select-arrow.png);
+		right:8px;
+		top:9px;
+		width:10px;
+		height:6px;
+		position: absolute;
+	}
+	.select-value {
+		position:absolute;
+		top:0;
+		left:0;
+		z-index: 1;
+		font-size:12px;
+		color:#717171;
+		font-family: $bold;
+		padding:5px 20px 0 15px;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+
+	}
+	select {
+		position:relative;
+		z-index: 2;
+		opacity: 0;
+	}
+}
