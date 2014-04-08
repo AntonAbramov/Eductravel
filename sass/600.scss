@@ -44,29 +44,32 @@
 		}
 	}
 }
-.top-contacts-section {
-	text-align: left;
-	.logo, .adress {
-		float:left;
+.header {
+	.header-top-section {
+		ul {
+			li {
+				&:last-child {
+					a {
+						font-size: 12px;
+					}
+				}
+			}
+		}
 	}
+}
+.top-contacts-section {
 	.top-img-container {
-		float:left;
+		border-left:1px solid #cecece;
+		box-shadow:1px 0 0 #fff inset;
+		height:80px;
+		margin-left:20px;
+		padding-left:20px;
+		display: none;
 	}
 	.top-contacts {
-		float:right;
-		.icons-flag {
-
-		}
-		.adress {
-			float:left;
-			text-align: right;
-		}
 		.tel-holder {
-			float:right;
-			padding-left:20px;
-			margin-left:20px;
-			border-left:1px solid #cecece;
-			box-shadow:1px 0 0 #fff inset;
+			font-size:30px;
 		}
 	}
+
 }

@@ -47,32 +47,21 @@
   margin-bottom: 0;
 }
 
-/* line 47, ../sass/600.scss */
-.top-contacts-section {
-  text-align: left;
-}
-/* line 49, ../sass/600.scss */
-.top-contacts-section .logo, .top-contacts-section .adress {
-  float: left;
-}
 /* line 52, ../sass/600.scss */
+.header .header-top-section ul li:last-child a {
+  font-size: 12px;
+}
+
+/* line 61, ../sass/600.scss */
 .top-contacts-section .top-img-container {
-  float: left;
-}
-/* line 55, ../sass/600.scss */
-.top-contacts-section .top-contacts {
-  float: right;
-}
-/* line 60, ../sass/600.scss */
-.top-contacts-section .top-contacts .adress {
-  float: left;
-  text-align: right;
-}
-/* line 64, ../sass/600.scss */
-.top-contacts-section .top-contacts .tel-holder {
-  float: right;
-  padding-left: 20px;
-  margin-left: 20px;
   border-left: 1px solid #cecece;
   box-shadow: 1px 0 0 #fff inset;
+  height: 80px;
+  margin-left: 20px;
+  padding-left: 20px;
+  display: none;
+}
+/* line 70, ../sass/600.scss */
+.top-contacts-section .top-contacts .tel-holder {
+  font-size: 30px;
 }

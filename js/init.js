@@ -85,6 +85,7 @@ var postFunc = function(){
 	});
 
 	$(".btn-prev").on("click", function(){
+		var totalLi = parseInt($(this).parent().find(".visible-page-amount").text());
 		var that = $(this);
 		if (that.hasClass("disabled")) {
 			return false;
@@ -92,12 +93,21 @@ var postFunc = function(){
 		else {
 			var position = that.parents(".post-list").find("ul").css("top");
 			var top = parseInt(position.substr(0, position.length-2));
-			if (!(top == 0)) {
+			if (!(top >= 0)) {
 				var firstVisible = parseInt(that.parents(".post-list").find(".first-visible-page").text());
 				var lastVisible = parseInt(that.parents(".post-list").find(".last-visible-page").text());
-				that.parents(".post-list").find(".first-visible-page").text(--firstVisible)
-				that.parents(".post-list").find(".last-visible-page").text(--lastVisible)
-				that.parents(".post-list").find("ul").css("top", top+32 +"px");
+				var firstVisible=firstVisible-5;
+				var lastVisible=lastVisible-5
+				if (firstVisible <= 1) {
+					that.parents(".post-list").find(".first-visible-page").text(1);
+					that.parents(".post-list").find(".last-visible-page").text(5)
+				}
+				else {
+					that.parents(".post-list").find(".first-visible-page").text(firstVisible)
+					that.parents(".post-list").find(".last-visible-page").text(lastVisible )
+				}
+
+				that.parents(".post-list").find("ul").css("top", top+32*5 +"px");
 			}
 		}
 		that.addClass("disabled");
@@ -106,22 +116,27 @@ var postFunc = function(){
 		}, 500);
 	});
 	$(".btn-next").on("click", function(){
+		var totalLi = parseInt($(this).parent().find(".visible-page-amount").text());
 		var that = $(this);
-
 		if (that.hasClass("disabled")) {
 			return false;
 		}
 		else {
 			var position = that.parents(".post-list").find("ul").css("top");
-
 			var top = parseInt(position.substr(0, position.length-2));
 			var x = that.parents(".post-list").find("ul").outerHeight()-160;
-			if (!(top == -x)) {
+			if (!(top <= -x)) {
 				var firstVisible = parseInt(that.parents(".post-list").find(".first-visible-page").text());
 				var lastVisible = parseInt(that.parents(".post-list").find(".last-visible-page").text());
-				that.parents(".post-list").find(".first-visible-page").text(++firstVisible)
-				that.parents(".post-list").find(".last-visible-page").text(++lastVisible)
-				that.parents(".post-list").find("ul").css("top", top-32 +"px");
+				that.parents(".post-list").find(".first-visible-page").text(firstVisible=firstVisible+5)
+				var lastVisible=lastVisible+5
+				if (lastVisible > totalLi) {
+					that.parents(".post-list").find(".last-visible-page").text(totalLi)
+				}
+				else {
+					that.parents(".post-list").find(".last-visible-page").text(lastVisible)
+				}
+				that.parents(".post-list").find("ul").css("top", top-32*5 +"px");
 			}
 		}
 		that.addClass("disabled");

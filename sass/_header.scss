@@ -5,10 +5,12 @@
 	margin:0 0 20px;
 	.header-top-section {
 		float:right;
-		min-width: 340px;
+		min-width: 330px;
 		padding-top:10px;
 		select {
 			float:left;
+			position:relative;
+			top:4px;
 		}
 		ul {
 			float:right;
@@ -26,6 +28,11 @@
 					background: #d7d7d7;
 					&:hover {
 						background: #0082ca;
+					}
+				}
+				&:last-child {
+					a {
+						font-size: 0;
 					}
 				}
 			}
@@ -80,17 +87,15 @@
 			position: relative;
 		}
 		.adress {
-
+			font-size:14px;
 			padding-top:8px;
 			div {
 				margin:0 0 2px;
 			}
 		}
 		.tel-holder {
-
-
 			font-weight: bold;
-			font-size:30px;
+			font-size:20px;
 			font-family: $bold;
 			sub {
 				color:#188ece;
