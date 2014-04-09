@@ -47,21 +47,20 @@
   margin-bottom: 0;
 }
 
-/* line 52, ../sass/600.scss */
-.header .header-top-section ul li:last-child a {
-  font-size: 12px;
+/* line 48, ../sass/600.scss */
+.main-interactive-section .main-interactive-block {
+  text-align: left;
+}
+/* line 50, ../sass/600.scss */
+.main-interactive-section .main-interactive-block .icon {
+  display: inline-block;
+}
+/* line 53, ../sass/600.scss */
+.main-interactive-section .main-interactive-block .heading {
+  padding-left: 50px;
 }
 
-/* line 61, ../sass/600.scss */
-.top-contacts-section .top-img-container {
-  border-left: 1px solid #cecece;
-  box-shadow: 1px 0 0 #fff inset;
-  height: 80px;
-  margin-left: 20px;
-  padding-left: 20px;
-  display: none;
-}
-/* line 70, ../sass/600.scss */
-.top-contacts-section .top-contacts .tel-holder {
-  font-size: 30px;
+/* line 58, ../sass/600.scss */
+.footer {
+  text-align: left;
 }

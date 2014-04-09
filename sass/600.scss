@@ -44,32 +44,17 @@
 		}
 	}
 }
-.header {
-	.header-top-section {
-		ul {
-			li {
-				&:last-child {
-					a {
-						font-size: 12px;
-					}
-				}
-			}
+.main-interactive-section {
+	.main-interactive-block {
+		text-align:left;
+		.icon {
+			display: inline-block;
+		}
+		.heading {
+			padding-left:50px;
 		}
 	}
 }
-.top-contacts-section {
-	.top-img-container {
-		border-left:1px solid #cecece;
-		box-shadow:1px 0 0 #fff inset;
-		height:80px;
-		margin-left:20px;
-		padding-left:20px;
-		display: none;
-	}
-	.top-contacts {
-		.tel-holder {
-			font-size:30px;
-		}
-	}
-
+.footer {
+	text-align: left;
 }

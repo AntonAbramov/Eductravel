@@ -21,33 +21,7 @@
 		padding:0 10px;
 	}
 }
-.top-contacts-section {
-	text-align: left;
-	.logo, .adress {
-		float:left;
-	}
-	.top-img-container {
-		float:left;
-	}
-	.top-contacts {
-		float:right;
-		.icons-flag {
 
-		}
-		.adress {
-			float:left;
-			text-align: right;
-			font-size: 17px;
-		}
-		.tel-holder {
-			float:right;
-			padding-left:15px;
-			margin-left:15px;
-			border-left:1px solid #cecece;
-			box-shadow:1px 0 0 #fff inset;
-		}
-	}
-}
 .tabs {
 	.tab-nav {
 		a {
@@ -55,4 +29,9 @@
 			padding:17px 20px;
 		}
 	}
+}
+.block-actual, .block-img, .special-offer-section .special-offer {
+	width:50%;
+	float:left;
+	display:block;
 }

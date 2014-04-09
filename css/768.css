@@ -20,39 +20,15 @@
   padding: 0 10px;
 }
 
-/* line 24, ../sass/768.scss */
-.top-contacts-section {
-  text-align: left;
-}
-/* line 26, ../sass/768.scss */
-.top-contacts-section .logo, .top-contacts-section .adress {
-  float: left;
-}
-/* line 29, ../sass/768.scss */
-.top-contacts-section .top-img-container {
-  float: left;
-}
-/* line 32, ../sass/768.scss */
-.top-contacts-section .top-contacts {
-  float: right;
-}
-/* line 37, ../sass/768.scss */
-.top-contacts-section .top-contacts .adress {
-  float: left;
-  text-align: right;
-  font-size: 17px;
-}
-/* line 42, ../sass/768.scss */
-.top-contacts-section .top-contacts .tel-holder {
-  float: right;
-  padding-left: 15px;
-  margin-left: 15px;
-  border-left: 1px solid #cecece;
-  box-shadow: 1px 0 0 #fff inset;
-}
-
-/* line 53, ../sass/768.scss */
+/* line 27, ../sass/768.scss */
 .tabs .tab-nav a {
   font-size: 14px;
   padding: 17px 20px;
+}
+
+/* line 33, ../sass/768.scss */
+.block-actual, .block-img, .special-offer-section .special-offer {
+  width: 50%;
+  float: left;
+  display: block;
 }

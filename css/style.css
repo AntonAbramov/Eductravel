@@ -301,47 +301,51 @@
   margin: 0 0 20px;
 }
 /* line 6, ../sass/_header.scss */
+.header .custom-select-box {
+  width: 87px;
+}
+/* line 9, ../sass/_header.scss */
 .header .header-top-section {
   float: right;
-  min-width: 330px;
+  min-width: 240px;
   padding-top: 10px;
 }
-/* line 10, ../sass/_header.scss */
+/* line 13, ../sass/_header.scss */
 .header .header-top-section select {
   float: left;
   position: relative;
   top: 4px;
 }
-/* line 15, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 .header .header-top-section ul {
   float: right;
 }
-/* line 18, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 .header .header-top-section ul li {
   background: #ccc;
   float: left;
 }
-/* line 21, ../sass/_header.scss */
+/* line 24, ../sass/_header.scss */
 .header .header-top-section ul li:hover {
   background: #0082ca;
 }
-/* line 24, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 .header .header-top-section ul li:last-child a {
   width: auto;
 }
-/* line 27, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
 .header .header-top-section ul li:nth-child(2n) {
   background: #d7d7d7;
 }
-/* line 29, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 .header .header-top-section ul li:nth-child(2n):hover {
   background: #0082ca;
 }
-/* line 34, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 .header .header-top-section ul li:last-child a {
   font-size: 0;
 }
-/* line 39, ../sass/_header.scss */
+/* line 42, ../sass/_header.scss */
 .header .header-top-section ul a {
   width: 30px;
   height: 30px;
@@ -352,38 +356,38 @@
   text-decoration: none;
   text-align: center;
 }
-/* line 48, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 .header .header-top-section ul a i {
   line-height: 30px;
   position: relative;
 }
-/* line 52, ../sass/_header.scss */
+/* line 55, ../sass/_header.scss */
 .header .header-top-section ul a .icons-fb {
   top: 2px;
 }
-/* line 55, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 .header .header-top-section ul a .icons-tw {
   top: 4px;
 }
-/* line 58, ../sass/_header.scss */
+/* line 61, ../sass/_header.scss */
 .header .header-top-section ul a .icons-mail {
   top: 3px;
 }
-/* line 61, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 .header .header-top-section ul a .icons-skype {
   top: 2px;
 }
-/* line 64, ../sass/_header.scss */
+/* line 67, ../sass/_header.scss */
 .header .header-top-section ul a .icons-chat {
   top: 3px;
 }
 
-/* line 71, ../sass/_header.scss */
+/* line 74, ../sass/_header.scss */
 .top-contacts-section {
   text-align: center;
   margin: 0 0 20px;
 }
-/* line 74, ../sass/_header.scss */
+/* line 77, ../sass/_header.scss */
 .top-contacts-section .top-img-container {
   border-left: 1px solid #cecece;
   box-shadow: 1px 0 0 #fff inset;
@@ -392,32 +396,32 @@
   padding-left: 20px;
   display: none;
 }
-/* line 82, ../sass/_header.scss */
+/* line 85, ../sass/_header.scss */
 .top-contacts-section .top-contacts {
   color: #333333;
 }
-/* line 84, ../sass/_header.scss */
+/* line 87, ../sass/_header.scss */
 .top-contacts-section .top-contacts .icons-flag {
   margin-right: 7px;
   top: 3px;
   position: relative;
 }
-/* line 89, ../sass/_header.scss */
+/* line 92, ../sass/_header.scss */
 .top-contacts-section .top-contacts .adress {
   font-size: 14px;
   padding-top: 8px;
 }
-/* line 92, ../sass/_header.scss */
+/* line 95, ../sass/_header.scss */
 .top-contacts-section .top-contacts .adress div {
   margin: 0 0 2px;
 }
-/* line 96, ../sass/_header.scss */
+/* line 99, ../sass/_header.scss */
 .top-contacts-section .top-contacts .tel-holder {
   font-weight: bold;
   font-size: 20px;
   font-family: "helveticaneuecyrmedium";
 }
-/* line 100, ../sass/_header.scss */
+/* line 103, ../sass/_header.scss */
 .top-contacts-section .top-contacts .tel-holder sub {
   color: #188ece;
 }
@@ -428,12 +432,14 @@
   background: #444;
   font-size: 14px;
   color: #dddddd;
+  text-align: center;
 }
-/* line 6, ../sass/_footer.scss */
+/* line 7, ../sass/_footer.scss */
 .footer > .w960 {
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-/* line 9, ../sass/_footer.scss */
+/* line 11, ../sass/_footer.scss */
 .footer .copyright {
   background: #373737;
   padding: 20px 0;
@@ -441,7 +447,11 @@
   color: #cecece;
   text-align: center;
 }
-/* line 17, ../sass/_footer.scss */
+/* line 18, ../sass/_footer.scss */
+.footer .footer-block {
+  margin-bottom: 20px;
+}
+/* line 20, ../sass/_footer.scss */
 .footer .footer-block h3 {
   font-size: 18px;
   font-weight: bold;
@@ -449,45 +459,45 @@
   margin: 0 0 10px;
   font-family: "helveticaneuecyrmedium";
 }
-/* line 26, ../sass/_footer.scss */
+/* line 29, ../sass/_footer.scss */
 .footer .footer-menu li {
   margin: 0 0 2px;
 }
-/* line 29, ../sass/_footer.scss */
+/* line 32, ../sass/_footer.scss */
 .footer .footer-menu a {
   color: #dddddd;
 }
-/* line 31, ../sass/_footer.scss */
+/* line 34, ../sass/_footer.scss */
 .footer .footer-menu a:hover, .footer .footer-menu a:focus {
   color: #38afef;
 }
-/* line 36, ../sass/_footer.scss */
+/* line 39, ../sass/_footer.scss */
 .footer .footer-contacts {
   margin: 0 0 20px;
 }
-/* line 39, ../sass/_footer.scss */
+/* line 42, ../sass/_footer.scss */
 .footer .footer-telephones {
   font-size: 30px;
   font-family: helveticaneuecyrmedium;
   color: #fff;
   margin-bottom: 10px;
 }
-/* line 44, ../sass/_footer.scss */
+/* line 47, ../sass/_footer.scss */
 .footer .footer-telephones sub {
   font-size: 18px;
   color: #999999;
   marign-right: 3px;
 }
-/* line 51, ../sass/_footer.scss */
+/* line 54, ../sass/_footer.scss */
 .footer .footer-contacts-list li {
   vertical-align: top;
   margin: 0 0 8px;
 }
-/* line 55, ../sass/_footer.scss */
+/* line 58, ../sass/_footer.scss */
 .footer .footer-contacts-list .icon {
   margin-right: 7px;
 }
-/* line 57, ../sass/_footer.scss */
+/* line 60, ../sass/_footer.scss */
 .footer .footer-contacts-list .icon.icons-footer-fb {
   margin-right: 14px;
 }
@@ -543,7 +553,7 @@
     font-size: 1.35em;
     text-align: center;
     position: relative;
-    top: 4px;
+    top: 7px;
   }
 
   /* line 45, ../sass/_navigation.scss */
@@ -1433,41 +1443,36 @@ input[type="password"]:hover {
   background-position: 0 -1137px;
 }
 
-/* line 146, ../sass/_main.scss */
-.block-actual, .block-img {
-  width: 50%;
-  float: left;
-}
-
-/* line 150, ../sass/_main.scss */
+/* line 147, ../sass/_main.scss */
 .block-img {
   text-align: center;
   padding-top: 10px;
+  display: none;
 }
 
-/* line 154, ../sass/_main.scss */
+/* line 152, ../sass/_main.scss */
 .special-offer-section {
   background: #f7f7f7;
   padding: 30px 0;
 }
-/* line 157, ../sass/_main.scss */
-.special-offer-section .special-offer {
-  float: left;
-  width: 50%;
-}
-/* line 160, ../sass/_main.scss */
+/* line 156, ../sass/_main.scss */
 .special-offer-section .special-offer .post-list {
   padding-right: 20px;
 }
 
-/* line 166, ../sass/_main.scss */
+/* line 162, ../sass/_main.scss */
 .main-interactive-section {
   background: #fff;
   padding: 60px 0 40px;
 }
-/* line 169, ../sass/_main.scss */
+/* line 165, ../sass/_main.scss */
 .main-interactive-section .main-interactive-block {
   margin-bottom: 20px;
+  text-align: center;
+}
+/* line 168, ../sass/_main.scss */
+.main-interactive-section .main-interactive-block .icon {
+  display: none;
 }
 /* line 171, ../sass/_main.scss */
 .main-interactive-section .main-interactive-block .heading {
@@ -1476,7 +1481,6 @@ input[type="password"]:hover {
   margin: 0 0 20px;
   color: #555;
   vertical-align: top;
-  padding-left: 50px;
   min-height: 36px;
   position: relative;
 }
@@ -2014,8 +2018,9 @@ input[type="password"]:hover {
   height: 25px;
   border: 1px solid #ddd;
   background: #fff;
+  top: 3px;
 }
-/* line 631, ../sass/_main.scss */
+/* line 632, ../sass/_main.scss */
 .custom-select-box:after {
   content: "";
   background: url(../img/select-arrow.png);
@@ -2025,7 +2030,7 @@ input[type="password"]:hover {
   height: 6px;
   position: absolute;
 }
-/* line 640, ../sass/_main.scss */
+/* line 641, ../sass/_main.scss */
 .custom-select-box .select-value {
   position: absolute;
   top: 0;
@@ -2038,7 +2043,7 @@ input[type="password"]:hover {
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-/* line 653, ../sass/_main.scss */
+/* line 654, ../sass/_main.scss */
 .custom-select-box select {
   position: relative;
   z-index: 2;

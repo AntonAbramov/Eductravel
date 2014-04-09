@@ -16,3 +16,50 @@
 .registration-section .field-control .msg {
   position: absolute;
 }
+
+/* line 25, ../sass/992.scss */
+.header .header-top-section {
+  min-width: 330px;
+}
+/* line 30, ../sass/992.scss */
+.header .header-top-section ul li:last-child a {
+  font-size: 12px;
+}
+
+/* line 39, ../sass/992.scss */
+.top-contacts-section {
+  text-align: left;
+}
+/* line 41, ../sass/992.scss */
+.top-contacts-section .logo, .top-contacts-section .adress {
+  float: left;
+}
+/* line 44, ../sass/992.scss */
+.top-contacts-section .top-img-container {
+  float: left;
+  border-left: 1px solid #cecece;
+  box-shadow: 1px 0 0 #fff inset;
+  height: 80px;
+  margin-left: 20px;
+  padding-left: 20px;
+  display: block;
+}
+/* line 53, ../sass/992.scss */
+.top-contacts-section .top-contacts {
+  float: right;
+}
+/* line 58, ../sass/992.scss */
+.top-contacts-section .top-contacts .adress {
+  float: left;
+  text-align: right;
+  font-size: 17px;
+}
+/* line 63, ../sass/992.scss */
+.top-contacts-section .top-contacts .tel-holder {
+  float: right;
+  padding-left: 15px;
+  margin-left: 15px;
+  border-left: 1px solid #cecece;
+  box-shadow: 1px 0 0 #fff inset;
+  font-size: 30px;
+}
