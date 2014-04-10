@@ -1,10 +1,22 @@
 .custom-table {
 	table {
 		border:1px solid #ddd;
-		margin:0 0 20px;
+		margin:0 ;
 		width:100%;
 		td {
 			border-left:1px solid #ddd;
+			&.td-name {
+				width:52%;
+			}
+			&.td-age {
+				width:16%;
+			}
+			&.td-date {
+					width:16%;
+			}
+			&.td-price {
+				width:16%;
+			}
 		}
 		thead {
 			background: #6d6d6d;

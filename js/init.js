@@ -34,6 +34,8 @@ $(document).ready(function () {
 	    });
 	}
 
+
+
 });
 
 $(window).resize(function(){
@@ -51,6 +53,13 @@ $(window).load(function () {
 		$(".tab-nav").find("a").first().click();
 	}
 	postFunc();
+	if ($(".scroll-section").length) {
+		$(".scroll-section").mCustomScrollbar({
+					scrollButtons:{
+						enable:false
+					}
+				});
+	}
 });
 
 
