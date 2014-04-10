@@ -35,7 +35,6 @@
 		}
 	}
 }
-
 .top-contacts-section {
 	text-align: left;
 	.logo, .adress {
@@ -67,6 +66,26 @@
 			border-left:1px solid #cecece;
 			box-shadow:1px 0 0 #fff inset;
 			font-size:30px;
+		}
+	}
+}
+.main-interactive-section {
+	.main-interactive-block {
+		text-align:left;
+		float:left;
+		padding:0 10px;
+		width:25%;
+		border-left:1px solid #e6e6e6;
+		&:first-child {
+			border-left:none;
+		}
+		.icon {
+			display: inline-block;
+		}
+		.heading {
+			padding-left:50px;
+			min-height: 36px;
+			margin:0 0 20px;
 		}
 	}
 }

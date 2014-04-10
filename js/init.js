@@ -152,17 +152,29 @@ var postFunc = function(){
 var showAll = function(){
 	$(".show-all-js").on("click", function(event){
 		event.preventDefault();
-		$(this).parents(".show-all-block").find(".show-all-container").css("height", "auto");
+		if ($(this).hasClass("is-open")) {
+			$(this).text("Показать все").parents(".show-all-block").find(".show-all-container").css("height", "48px");
+		}
+		else {
+			$(this).text("Скрыть детали");
+			$(this).parents(".show-all-block").find(".show-all-container").css("height", "auto");
+		}
+		$(this).toggleClass("is-open");
+
+
 	})
 }
 
 var popup = function(){
-	$(".close-popup-js, .overlay").on("click", function(event){
+	$(".close-popup-js, .overlay-popup").on("click", function(event){
 		event.preventDefault();
-		$(".overlay").fadeOut();
+		$(".overlay-popup").fadeOut();
 	});
 	$(".make-order-js").on("click", function(){
-		$(".overlay").fadeIn();
+		$(".overlay-popup").fadeIn();
+	});
+	$(".popup").on("click", function(event){
+		event.stopPropagation();
 	})
 }
 

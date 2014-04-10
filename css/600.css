@@ -1,24 +1,17 @@
 /* line 3, ../sass/600.scss */
-.main-interactive-section .main-interactive-block {
-  width: 50%;
-  float: left;
-  padding: 0 10px;
-}
-
-/* line 10, ../sass/600.scss */
 .footer .footer-block {
   width: 50%;
   float: left;
   padding: 0 10px;
 }
 
-/* line 17, ../sass/600.scss */
+/* line 10, ../sass/600.scss */
 .container-sidebar-right .content {
   margin-right: 320px;
   min-height: 500px;
   margin-bottom: 0;
 }
-/* line 22, ../sass/600.scss */
+/* line 15, ../sass/600.scss */
 .container-sidebar-right .sidebar {
   position: absolute;
   width: 300px;
@@ -27,40 +20,27 @@
   right: 0;
 }
 
-/* line 30, ../sass/600.scss */
+/* line 23, ../sass/600.scss */
 .enter-section {
   padding: 20px;
 }
-/* line 33, ../sass/600.scss */
+/* line 26, ../sass/600.scss */
 .enter-section .enter-form-list li {
   padding-left: 85px;
 }
-/* line 35, ../sass/600.scss */
+/* line 28, ../sass/600.scss */
 .enter-section .enter-form-list li label {
   position: absolute;
   left: 0;
   top: 4px;
   z-index: 2;
 }
-/* line 41, ../sass/600.scss */
+/* line 34, ../sass/600.scss */
 .enter-section .enter-form-list li .btn {
   margin-bottom: 0;
 }
 
-/* line 48, ../sass/600.scss */
-.main-interactive-section .main-interactive-block {
-  text-align: left;
-}
-/* line 50, ../sass/600.scss */
-.main-interactive-section .main-interactive-block .icon {
-  display: inline-block;
-}
-/* line 53, ../sass/600.scss */
-.main-interactive-section .main-interactive-block .heading {
-  padding-left: 50px;
-}
-
-/* line 58, ../sass/600.scss */
+/* line 41, ../sass/600.scss */
 .footer {
   text-align: left;
 }
