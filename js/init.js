@@ -10,7 +10,7 @@ $(document).ready(function () {
 	$(".slider-page").slidesjs({
 		height: '1200'
 	});
-	tabs();
+	//tabs();
 	showAll();
 	popup();
 	customSelect();
@@ -39,13 +39,13 @@ $(document).ready(function () {
 });
 
 $(window).resize(function(){
-	if(window.innerWidth > 768) {
+	/*if(window.innerWidth > 768) {
 		$("#nav").removeAttr("style");
 		$(".tab-nav").find("a").first().click();
 	}
 	else {
 		$(".tab").show();
-	}
+	}*/
 });
 
 $(window).load(function () {

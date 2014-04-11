@@ -2800,3 +2800,32 @@ input[type="password"]:hover {
 .mr26 {
   margin-right: 26px !important;
 }
+
+@media all and (max-width: 780px) {
+  /* line 700, ../sass/_main.scss */
+  .slidesjs-container, .slidesjs-control {
+    height: auto !important;
+  }
+
+  /* line 703, ../sass/_main.scss */
+  .slidesjs-slide {
+    position: relative !important;
+    left: 0 !important;
+  }
+
+  /* line 707, ../sass/_main.scss */
+  .container-sidebar-right .content {
+    margin-right: 0 !important;
+  }
+
+  /* line 711, ../sass/_main.scss */
+  .container-sidebar-right .sidebar {
+    width: auto !important;
+    position: relative !important;
+  }
+
+  /* line 715, ../sass/_main.scss */
+  .container-sidebar-right .contacts .icon {
+    display: none;
+  }
+}
