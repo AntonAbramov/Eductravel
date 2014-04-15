@@ -91,7 +91,7 @@ input[type="password"]{
 
 .post-list {
 	h2 {
-		font-size: 24px;
+		font-size: 18px;
 		text-transform: uppercase;
 		padding-bottom:10px;
 		background: url(../img/header-border.png) 0 100% repeat-x;
@@ -164,14 +164,17 @@ input[type="password"]{
 	padding:60px 0 40px;
 	.main-interactive-block {
 		margin-bottom:20px;
-		text-align:center;
+		//text-align:center;
 		.icon {
-			display: none;
+			display: inline-block;
 		}
 		.heading {
+			padding-left:50px;
+			min-height: 36px;
+
 			text-transform: uppercase;
 			font-size: 16px;
-			margin:0;
+			margin:0 0 10px;
 			color:#555;
 			vertical-align: top;
 			position:relative;
@@ -199,6 +202,7 @@ input[type="password"]{
 .container-sidebar-right {
 	position:relative;
 	z-index: 1;
+	background: #f9f9f9;
 	.content {
 		margin-bottom:20px;
 		textarea {
@@ -259,11 +263,15 @@ input[type="password"]{
 	}
 	.btn.orange {
 		min-width: 225px;
-		margin:0 0 10px;
+		margin:0 auto 10px;
+		position:relative;
+		left:10px;
+		display: block;
 	}
 	.contacts {
 		h2 {
 			text-transform: uppercase;
+			font-size:18px;
 		}
 		ul {
 			li{
@@ -279,13 +287,14 @@ input[type="password"]{
 					color:#188ece;
 				}
 				.icon {
-					position: absolute;
+					position: relative;
 					top:4px;
-					left:0;
+					left:-4px;
 					z-index: 2;
+					display: inline-block;
 				}
 				.icons-footer-fb {
-					left:4px;
+					left:-4px;
 				}
 			}
 		}
@@ -372,9 +381,9 @@ input[type="password"]{
 		}
 	}
 	.show-all-container {
-		height:48px;
-		font-size:18px;
-		line-height:24px;
+		height:54px;
+		font-size:14px;
+		line-height:18px;
 		position:relative;
 		overflow:hidden;
 		&:after {
@@ -393,7 +402,7 @@ input[type="password"]{
 	font-size:24px;
 	padding:25px 25px 25px 80px;
 	margin:0 auto 20px;
-	max-width: 960px;
+	max-width: 1160px;
 	position: relative;
 	.icon {
 		position:absolute;
@@ -443,10 +452,13 @@ input[type="password"]{
 
 
 }
+.sidebar .contacts {
+	text-align: center;
+}
 .picture-list,
 .video-list {
 	position:relative;
-	margin:0 0 20px;
+	margin-bottom:20px;
 	h3 {
 		padding-top:5px;
 	}
@@ -508,20 +520,19 @@ input[type="password"]{
 	z-index: 100;
 	.popup {
 		font-size: 14px;
-		top:50%;
-		left:50%;
+		top:10%;
+		left:0;
 		position:absolute;
 		z-index: 10;
 		background: #fff;
 		border:5px solid #e3e3e3;
 		border-radius: 10px;
-		width:590px;
-		margin-left:-275px;
-		margin-top:-275px;
+		width:100%;
+
 		.close-popup-js {
 			position:absolute;
 			right:10px;
-			top:10px;
+			top:3px;
 			z-index: 2;
 			color:#ec8435;
 			text-decoration: underline;
@@ -531,26 +542,19 @@ input[type="password"]{
 		}
 		.header-popup {
 			background: #e3e3e3;
-			padding:10px 20px;
+			padding:5px 10px;
 			font-family: $bold;
 		}
 		.content {
-			padding:20px;
+			padding:10px;
 			background: #fff;
 		}
 		.input-container {
-			.container:first-child {
-				float:left;
-			}
+
 			.container {
-				float:right;
-				width:260px;
 				input {
-					margin-top:15px;
+					margin-top:10px;
 					width:100%;
-					&:first-child {
-						margin-top:0;
-					}
 				}
 			}
 			textarea {
@@ -697,7 +701,10 @@ input[type="password"]{
 }
 
 @media all and (max-width: 780px){
-	.slidesjs-container, .slidesjs-control {
+	//.slidesjs-container, .slidesjs-control {
+	//	height:auto!important;
+	//}
+	.slider-page .slidesjs-container, .slider-page .slidesjs-control{
 		height:auto!important;
 	}
 	.slidesjs-slide {

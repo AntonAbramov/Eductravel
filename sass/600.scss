@@ -37,7 +37,61 @@
 		}
 	}
 }
-
+.main-interactive-section {
+	.main-interactive-block {
+		text-align:left;
+		float:left;
+		width:50%;
+		padding:0 10px;
+	}
+}
 .footer {
 	text-align: left;
+}
+.overlay-popup {
+	.popup {
+		width:590px;
+		margin-left:-293px;
+		margin-top:-275px;
+		left:50%;
+		top:50%;
+		.header-popup {
+			padding:10px 20px;
+		}
+		.content {
+			padding:20px;
+		}
+		.close-popup-js {
+			top:10px;
+		}
+		.input-container {
+			.container:first-child {
+				float:left;
+			}
+			.container {
+				float:right;
+				width:260px;
+				input {
+					margin-top:15px;
+					width:100%;
+					&:first-child {
+						margin-top:0;
+					}
+				}
+			}
+			textarea {
+				width:100%;
+				margin:15px 0;
+				resize: none;
+				border:1px solid #ddd;
+			}
+		}
+		.subscribe {
+			margin-top:15px;
+		}
+	}
+}
+.carusel,
+.carusel-video {
+	margin:0 auto;
 }

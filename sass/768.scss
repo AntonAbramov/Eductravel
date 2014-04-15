@@ -24,3 +24,127 @@
 	float:left;
 	display:block;
 }
+.post-list h2 {
+	font-size: 24px;
+}
+
+.top-contacts-section {
+	text-align: left;
+	.logo {
+		max-width:150px;
+	}
+	.logo, .adress {
+		float:left;
+		img {
+			width:100%;
+			max-height: 100%;
+		}
+	}
+	.top-img-container {
+		max-width:150px;
+		float:left;
+		border-left:1px solid #cecece;
+		box-shadow:1px 0 0 #fff inset;
+		margin-left:10px;
+		padding-left:10px;
+		display: block;
+		height:auto;
+		img {
+			width:100%;
+			max-height: 100%;
+		}
+	}
+	.top-contacts {
+		float:right;
+		.icons-flag {
+
+		}
+		.adress {
+			float:left;
+			text-align: right;
+			font-size: 13px;
+		}
+		.tel-holder {
+			float:right;
+			padding-left:5px;
+			margin-left:5px;
+			border-left:1px solid #cecece;
+			box-shadow:1px 0 0 #fff inset;
+		}
+	}
+}
+.pt8 {
+	display: none!important;
+}
+.show-all-block {
+	.show-all-container {
+		height:48px;
+		font-size:18px;
+		line-height:24px;
+	}
+}
+
+.custom-table {
+	table {
+		thead {
+			td {
+				padding:5px;
+				font-size:14px;
+				input {
+					margin-right:100px;
+
+				}
+				a {
+					color:#fff;
+				}
+			}
+		}
+		tbody {
+			td {
+				padding:20px 10px;
+				font-size: 18px;
+			}
+		}
+	}
+}
+.picture-list {
+	margin-right: 0;
+	float:none;
+}
+.sidebar .contacts {
+	text-align: left;
+}
+.sidebar {
+	.btn.orange {
+		margin:0 0 10px;
+		left:0;
+	}
+		.contacts {
+		h2 {
+			text-transform: uppercase;
+			font-size: 24px;
+		}
+		ul {
+			li{
+				padding-left: 30px;
+				position: relative;
+				margin:0 0 10px;
+				font-size: 18px;
+				&.phone {
+					color:#ec8435;
+					font-size: 24px;
+				}
+				a, .skype {
+					color:#188ece;
+				}
+				.icon {
+					position:absolute;
+					left:0;
+				}
+				.icons-footer-fb {
+					left:4px;
+				}
+			}
+		}
+		}
+}

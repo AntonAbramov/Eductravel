@@ -12,8 +12,25 @@
 .top-contacts-section {
 	.top-img-container {
 		display: block;
+		max-width:999em;
+		margin-left:20px;
+		padding-left:20px;
+		height:80px;
 	}
+	.top-contacts {
+		.adress {
+			font-size: 17px;
+		}
+		.tel-holder {
+			padding-left: 15px;
+			margin-left:15px;
+			font-size: 30px;
+		}
+	}
+
+
 }
+
 .registration-section {
 	.field-control {
 		.msg {
@@ -36,56 +53,24 @@
 	}
 }
 .top-contacts-section {
-	text-align: left;
-	.logo, .adress {
-		float:left;
-	}
-	.top-img-container {
-		float:left;
-		border-left:1px solid #cecece;
-		box-shadow:1px 0 0 #fff inset;
-		height:80px;
-		margin-left:20px;
-		padding-left:20px;
-		display: block;
-	}
-	.top-contacts {
-		float:right;
-		.icons-flag {
-
-		}
-		.adress {
-			float:left;
-			text-align: right;
-			font-size: 17px;
-		}
-		.tel-holder {
-			float:right;
-			padding-left:15px;
-			margin-left:15px;
-			border-left:1px solid #cecece;
-			box-shadow:1px 0 0 #fff inset;
-			font-size:30px;
-		}
+	.logo {
+		max-width: 999em;
 	}
 }
 .main-interactive-section {
 	.main-interactive-block {
 		text-align:left;
 		float:left;
-		padding:0 10px;
 		width:25%;
 		border-left:1px solid #e6e6e6;
 		&:first-child {
 			border-left:none;
 		}
-		.icon {
-			display: inline-block;
-		}
 		.heading {
-			padding-left:50px;
-			min-height: 36px;
 			margin:0 0 20px;
 		}
 	}
+}
+.pt8 {
+	display: block!important;
 }

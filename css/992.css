@@ -10,79 +10,58 @@
 /* line 13, ../sass/992.scss */
 .top-contacts-section .top-img-container {
   display: block;
+  max-width: 999em;
+  margin-left: 20px;
+  padding-left: 20px;
+  height: 80px;
+}
+/* line 21, ../sass/992.scss */
+.top-contacts-section .top-contacts .adress {
+  font-size: 17px;
+}
+/* line 24, ../sass/992.scss */
+.top-contacts-section .top-contacts .tel-holder {
+  padding-left: 15px;
+  margin-left: 15px;
+  font-size: 30px;
 }
 
-/* line 19, ../sass/992.scss */
+/* line 36, ../sass/992.scss */
 .registration-section .field-control .msg {
   position: absolute;
 }
 
-/* line 25, ../sass/992.scss */
+/* line 42, ../sass/992.scss */
 .header .header-top-section {
   min-width: 330px;
 }
-/* line 30, ../sass/992.scss */
+/* line 47, ../sass/992.scss */
 .header .header-top-section ul li:last-child a {
   font-size: 12px;
 }
 
-/* line 38, ../sass/992.scss */
-.top-contacts-section {
-  text-align: left;
-}
-/* line 40, ../sass/992.scss */
-.top-contacts-section .logo, .top-contacts-section .adress {
-  float: left;
-}
-/* line 43, ../sass/992.scss */
-.top-contacts-section .top-img-container {
-  float: left;
-  border-left: 1px solid #cecece;
-  box-shadow: 1px 0 0 #fff inset;
-  height: 80px;
-  margin-left: 20px;
-  padding-left: 20px;
-  display: block;
-}
-/* line 52, ../sass/992.scss */
-.top-contacts-section .top-contacts {
-  float: right;
-}
-/* line 57, ../sass/992.scss */
-.top-contacts-section .top-contacts .adress {
-  float: left;
-  text-align: right;
-  font-size: 17px;
-}
-/* line 62, ../sass/992.scss */
-.top-contacts-section .top-contacts .tel-holder {
-  float: right;
-  padding-left: 15px;
-  margin-left: 15px;
-  border-left: 1px solid #cecece;
-  box-shadow: 1px 0 0 #fff inset;
-  font-size: 30px;
+/* line 56, ../sass/992.scss */
+.top-contacts-section .logo {
+  max-width: 999em;
 }
 
-/* line 73, ../sass/992.scss */
+/* line 61, ../sass/992.scss */
 .main-interactive-section .main-interactive-block {
   text-align: left;
   float: left;
-  padding: 0 10px;
   width: 25%;
   border-left: 1px solid #e6e6e6;
 }
-/* line 79, ../sass/992.scss */
+/* line 66, ../sass/992.scss */
 .main-interactive-section .main-interactive-block:first-child {
   border-left: none;
 }
-/* line 82, ../sass/992.scss */
-.main-interactive-section .main-interactive-block .icon {
-  display: inline-block;
-}
-/* line 85, ../sass/992.scss */
+/* line 69, ../sass/992.scss */
 .main-interactive-section .main-interactive-block .heading {
-  padding-left: 50px;
-  min-height: 36px;
   margin: 0 0 20px;
+}
+
+/* line 74, ../sass/992.scss */
+.pt8 {
+  display: block !important;
 }

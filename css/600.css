@@ -41,6 +41,70 @@
 }
 
 /* line 41, ../sass/600.scss */
+.main-interactive-section .main-interactive-block {
+  text-align: left;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* line 48, ../sass/600.scss */
 .footer {
   text-align: left;
+}
+
+/* line 52, ../sass/600.scss */
+.overlay-popup .popup {
+  width: 590px;
+  margin-left: -293px;
+  margin-top: -275px;
+  left: 50%;
+  top: 50%;
+}
+/* line 58, ../sass/600.scss */
+.overlay-popup .popup .header-popup {
+  padding: 10px 20px;
+}
+/* line 61, ../sass/600.scss */
+.overlay-popup .popup .content {
+  padding: 20px;
+}
+/* line 64, ../sass/600.scss */
+.overlay-popup .popup .close-popup-js {
+  top: 10px;
+}
+/* line 68, ../sass/600.scss */
+.overlay-popup .popup .input-container .container:first-child {
+  float: left;
+}
+/* line 71, ../sass/600.scss */
+.overlay-popup .popup .input-container .container {
+  float: right;
+  width: 260px;
+}
+/* line 74, ../sass/600.scss */
+.overlay-popup .popup .input-container .container input {
+  margin-top: 15px;
+  width: 100%;
+}
+/* line 77, ../sass/600.scss */
+.overlay-popup .popup .input-container .container input:first-child {
+  margin-top: 0;
+}
+/* line 82, ../sass/600.scss */
+.overlay-popup .popup .input-container textarea {
+  width: 100%;
+  margin: 15px 0;
+  resize: none;
+  border: 1px solid #ddd;
+}
+/* line 89, ../sass/600.scss */
+.overlay-popup .popup .subscribe {
+  margin-top: 15px;
+}
+
+/* line 95, ../sass/600.scss */
+.carusel,
+.carusel-video {
+  margin: 0 auto;
 }
