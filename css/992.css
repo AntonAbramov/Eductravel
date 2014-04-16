@@ -65,3 +65,14 @@
 .pt8 {
   display: block !important;
 }
+
+/* line 79, ../sass/992.scss */
+#nav li a {
+  padding: 0 11px;
+}
+
+/* line 86, ../sass/992.scss */
+.tabs .tab-nav a {
+  font-size: 14px;
+  padding: 17px 20px;
+}

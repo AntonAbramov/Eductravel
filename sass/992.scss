@@ -74,3 +74,18 @@
 .pt8 {
 	display: block!important;
 }
+#nav {
+	li {
+		a {
+			padding:0 11px;
+		}
+	}
+}
+.tabs {
+	.tab-nav {
+		a {
+			font-size: 14px;
+			padding:17px 20px;
+		}
+	}
+}

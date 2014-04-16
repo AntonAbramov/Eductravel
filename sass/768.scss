@@ -15,7 +15,7 @@
 	.tab-nav {
 		a {
 			font-size: 14px;
-			padding:17px 20px;
+			padding:17px 5px;
 		}
 	}
 }
@@ -28,53 +28,11 @@
 	font-size: 24px;
 }
 
-.top-contacts-section {
-	text-align: left;
-	.logo {
-		max-width:150px;
-	}
-	.logo, .adress {
-		float:left;
-		img {
-			width:100%;
-			max-height: 100%;
-		}
-	}
-	.top-img-container {
-		max-width:150px;
-		float:left;
-		border-left:1px solid #cecece;
-		box-shadow:1px 0 0 #fff inset;
-		margin-left:10px;
-		padding-left:10px;
-		display: block;
-		height:auto;
-		img {
-			width:100%;
-			max-height: 100%;
-		}
-	}
-	.top-contacts {
-		float:right;
-		.icons-flag {
 
-		}
-		.adress {
-			float:left;
-			text-align: right;
-			font-size: 13px;
-		}
-		.tel-holder {
-			float:right;
-			padding-left:5px;
-			margin-left:5px;
-			border-left:1px solid #cecece;
-			box-shadow:1px 0 0 #fff inset;
-		}
+.top-contacts-section {
+	.top-img-container{
+		display: block;
 	}
-}
-.pt8 {
-	display: none!important;
 }
 .show-all-block {
 	.show-all-container {

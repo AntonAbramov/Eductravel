@@ -303,49 +303,51 @@
 /* line 6, ../sass/_header.scss */
 .header .custom-select-box {
   width: 87px;
+  float: left;
+  margin-right: 10px;
 }
-/* line 9, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 .header .header-top-section {
   float: right;
   min-width: 240px;
   padding-top: 7px;
 }
-/* line 13, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 .header .header-top-section select {
   float: left;
   position: relative;
   top: 4px;
 }
-/* line 18, ../sass/_header.scss */
+/* line 20, ../sass/_header.scss */
 .header .header-top-section ul {
   float: right;
 }
-/* line 21, ../sass/_header.scss */
+/* line 23, ../sass/_header.scss */
 .header .header-top-section ul li {
   background: #ccc;
   float: left;
 }
-/* line 24, ../sass/_header.scss */
+/* line 26, ../sass/_header.scss */
 .header .header-top-section ul li:hover {
   background: #0082ca;
 }
-/* line 27, ../sass/_header.scss */
+/* line 29, ../sass/_header.scss */
 .header .header-top-section ul li:last-child a {
   width: auto;
 }
-/* line 30, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 .header .header-top-section ul li:nth-child(2n) {
   background: #d7d7d7;
 }
-/* line 32, ../sass/_header.scss */
+/* line 34, ../sass/_header.scss */
 .header .header-top-section ul li:nth-child(2n):hover {
   background: #0082ca;
 }
-/* line 37, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
 .header .header-top-section ul li:last-child a {
   font-size: 0;
 }
-/* line 42, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 .header .header-top-section ul a {
   width: 30px;
   height: 30px;
@@ -356,38 +358,38 @@
   text-decoration: none;
   text-align: center;
 }
-/* line 51, ../sass/_header.scss */
+/* line 53, ../sass/_header.scss */
 .header .header-top-section ul a i {
   line-height: 30px;
   position: relative;
 }
-/* line 55, ../sass/_header.scss */
+/* line 57, ../sass/_header.scss */
 .header .header-top-section ul a .icons-fb {
   top: 2px;
 }
-/* line 58, ../sass/_header.scss */
+/* line 60, ../sass/_header.scss */
 .header .header-top-section ul a .icons-tw {
   top: 4px;
 }
-/* line 61, ../sass/_header.scss */
+/* line 63, ../sass/_header.scss */
 .header .header-top-section ul a .icons-mail {
   top: 3px;
 }
-/* line 64, ../sass/_header.scss */
+/* line 66, ../sass/_header.scss */
 .header .header-top-section ul a .icons-skype {
   top: 2px;
 }
-/* line 67, ../sass/_header.scss */
+/* line 69, ../sass/_header.scss */
 .header .header-top-section ul a .icons-chat {
   top: 3px;
 }
 
-/* line 74, ../sass/_header.scss */
+/* line 76, ../sass/_header.scss */
 .top-contacts-section {
   text-align: center;
   margin: 0 0 20px;
 }
-/* line 77, ../sass/_header.scss */
+/* line 79, ../sass/_header.scss */
 .top-contacts-section .top-img-container {
   border-left: 1px solid #cecece;
   box-shadow: 1px 0 0 #fff inset;
@@ -396,34 +398,36 @@
   padding-left: 20px;
   display: none;
 }
-/* line 85, ../sass/_header.scss */
+/* line 87, ../sass/_header.scss */
 .top-contacts-section .top-contacts {
   color: #333333;
 }
-/* line 87, ../sass/_header.scss */
+/* line 89, ../sass/_header.scss */
 .top-contacts-section .top-contacts .icons-flag {
   margin-right: 7px;
   top: 3px;
   position: relative;
 }
-/* line 92, ../sass/_header.scss */
+/* line 94, ../sass/_header.scss */
 .top-contacts-section .top-contacts .adress {
   font-size: 14px;
   padding-top: 8px;
 }
-/* line 95, ../sass/_header.scss */
+/* line 97, ../sass/_header.scss */
 .top-contacts-section .top-contacts .adress div {
   margin: 0 0 2px;
 }
-/* line 99, ../sass/_header.scss */
+/* line 101, ../sass/_header.scss */
 .top-contacts-section .top-contacts .tel-holder {
   font-weight: bold;
   font-size: 20px;
   font-family: "helveticaneuecyrmedium";
 }
-/* line 103, ../sass/_header.scss */
+/* line 105, ../sass/_header.scss */
 .top-contacts-section .top-contacts .tel-holder sub {
   color: #188ece;
+  margin-right: 5px;
+  top: 0;
 }
 
 /* line 1, ../sass/_footer.scss */
@@ -523,7 +527,7 @@
   color: #555;
   font-size: 13px;
   height: 45px;
-  padding: 0 11px;
+  padding: 0 5px;
   border: 1px solid #d5d5d5;
   line-height: 44px;
   font-family: "helveticaneuecyrmedium";
@@ -820,7 +824,7 @@
   display: block;
   width: 25%;
   height: 65px;
-  padding: 17px 5px;
+  padding: 7px 5px;
   border-right: 1px solid #ddd;
   font-family: "helveticaneuecyrmedium";
   font-size: 11px;
@@ -854,6 +858,7 @@
 /* line 51, ../sass/_tabs.scss */
 .tabs .tab-nav a span {
   color: #939393;
+  display: block;
 }
 
 /* line 3, ../sass/_map.scss */
@@ -1028,7 +1033,7 @@
 }
 /* line 28, ../sass/_table.scss */
 .custom-table table thead td {
-  padding: 5px 10px;
+  padding: 5px 5px;
   font-size: 14px;
 }
 /* line 31, ../sass/_table.scss */
@@ -1051,36 +1056,36 @@
   background: #fdfdfd;
 }
 /* line 53, ../sass/_table.scss */
-.custom-table table tbody tr:hover td {
+.custom-table table tbody tr:hover td, .custom-table table tbody tr.active td {
   background: #ec8435;
   color: #fff;
 }
 /* line 57, ../sass/_table.scss */
-.custom-table table tbody tr:hover td a {
+.custom-table table tbody tr:hover td a, .custom-table table tbody tr.active td a {
   color: #fff;
 }
 /* line 59, ../sass/_table.scss */
-.custom-table table tbody tr:hover td a .discription {
+.custom-table table tbody tr:hover td a .discription, .custom-table table tbody tr.active td a .discription {
   color: #fee7d5;
 }
 /* line 63, ../sass/_table.scss */
-.custom-table table tbody tr:hover td .gray {
+.custom-table table tbody tr:hover td .gray, .custom-table table tbody tr.active td .gray {
   color: #fee7d5;
 }
-/* line 68, ../sass/_table.scss */
+/* line 69, ../sass/_table.scss */
 .custom-table table tbody td {
   background: #f7f7f7;
   border-bottom: 1px solid #ddd;
   padding: 5px;
   font-size: 14px;
 }
-/* line 74, ../sass/_table.scss */
+/* line 75, ../sass/_table.scss */
 .custom-table table tbody .row-info {
   padding-left: 70px;
   position: relative;
   min-height: 50px;
 }
-/* line 78, ../sass/_table.scss */
+/* line 79, ../sass/_table.scss */
 .custom-table table tbody .row-info .row-info-pic {
   position: absolute;
   left: 5px;
@@ -1090,7 +1095,7 @@
   border-radius: 2px;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-/* line 88, ../sass/_table.scss */
+/* line 89, ../sass/_table.scss */
 .custom-table table tbody a {
   -webkit-transition: all 0s ease-in-out;
   -moz-transition: all 0s ease-in-out;
@@ -1098,48 +1103,48 @@
   transition: all 0s ease-in-out;
   color: #333333;
 }
-/* line 94, ../sass/_table.scss */
+/* line 95, ../sass/_table.scss */
 .custom-table table tbody a .title {
   font-size: 18px;
   display: block;
 }
-/* line 98, ../sass/_table.scss */
+/* line 99, ../sass/_table.scss */
 .custom-table table tbody a .discription {
   color: #838383;
   font-size: 14px;
 }
-/* line 103, ../sass/_table.scss */
+/* line 104, ../sass/_table.scss */
 .custom-table table tbody .gray {
   color: #838383;
-  font-size: 14px;
+  font-size: 12px;
 }
 
-/* line 110, ../sass/_table.scss */
+/* line 111, ../sass/_table.scss */
 .table-discription {
   font-size: 16px;
   font-style: italic;
   margin: 0 0 20px;
 }
 
-/* line 115, ../sass/_table.scss */
+/* line 116, ../sass/_table.scss */
 .table-slide {
   font-size: 14px;
   color: #555555;
 }
-/* line 119, ../sass/_table.scss */
+/* line 120, ../sass/_table.scss */
 .table-slide td {
   border-bottom: 1px solid #efefef;
 }
-/* line 123, ../sass/_table.scss */
+/* line 124, ../sass/_table.scss */
 .table-slide tr:nth-child(2n) td {
   background: #fdfdfd;
 }
-/* line 128, ../sass/_table.scss */
+/* line 129, ../sass/_table.scss */
 .table-slide tr td {
   background: #f9f9f9;
   padding: 10px 5px 5px 5px;
 }
-/* line 131, ../sass/_table.scss */
+/* line 132, ../sass/_table.scss */
 .table-slide tr td:first-child {
   font-family: "helveticaneuecyrmedium";
 }
@@ -2770,7 +2775,7 @@ input[type="password"]:hover {
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 1;
+  z-index: 11;
 }
 /* line 680, ../sass/_main.scss */
 .overlay .preloader {
@@ -2825,4 +2830,8 @@ input[type="password"]:hover {
   .container-sidebar-right .contacts .icon {
     display: none;
   }
+}
+/* line 727, ../sass/_main.scss */
+.bg-white {
+  background: #fff;
 }

@@ -46,14 +46,15 @@
   float: left;
   width: 50%;
   padding: 0 10px;
+  min-height: 210px;
 }
 
-/* line 48, ../sass/600.scss */
+/* line 49, ../sass/600.scss */
 .footer {
   text-align: left;
 }
 
-/* line 52, ../sass/600.scss */
+/* line 53, ../sass/600.scss */
 .overlay-popup .popup {
   width: 590px;
   margin-left: -293px;
@@ -61,50 +62,106 @@
   left: 50%;
   top: 50%;
 }
-/* line 58, ../sass/600.scss */
+/* line 59, ../sass/600.scss */
 .overlay-popup .popup .header-popup {
   padding: 10px 20px;
 }
-/* line 61, ../sass/600.scss */
+/* line 62, ../sass/600.scss */
 .overlay-popup .popup .content {
   padding: 20px;
 }
-/* line 64, ../sass/600.scss */
+/* line 65, ../sass/600.scss */
 .overlay-popup .popup .close-popup-js {
   top: 10px;
 }
-/* line 68, ../sass/600.scss */
+/* line 69, ../sass/600.scss */
 .overlay-popup .popup .input-container .container:first-child {
   float: left;
 }
-/* line 71, ../sass/600.scss */
+/* line 72, ../sass/600.scss */
 .overlay-popup .popup .input-container .container {
   float: right;
   width: 260px;
 }
-/* line 74, ../sass/600.scss */
+/* line 75, ../sass/600.scss */
 .overlay-popup .popup .input-container .container input {
   margin-top: 15px;
   width: 100%;
 }
-/* line 77, ../sass/600.scss */
+/* line 78, ../sass/600.scss */
 .overlay-popup .popup .input-container .container input:first-child {
   margin-top: 0;
 }
-/* line 82, ../sass/600.scss */
+/* line 83, ../sass/600.scss */
 .overlay-popup .popup .input-container textarea {
   width: 100%;
   margin: 15px 0;
   resize: none;
   border: 1px solid #ddd;
 }
-/* line 89, ../sass/600.scss */
+/* line 90, ../sass/600.scss */
 .overlay-popup .popup .subscribe {
   margin-top: 15px;
 }
 
-/* line 95, ../sass/600.scss */
+/* line 96, ../sass/600.scss */
 .carusel,
 .carusel-video {
   margin: 0 auto;
+}
+
+/* line 100, ../sass/600.scss */
+.top-contacts-section {
+  text-align: left;
+}
+/* line 102, ../sass/600.scss */
+.top-contacts-section .logo {
+  max-width: 150px;
+}
+/* line 105, ../sass/600.scss */
+.top-contacts-section .logo, .top-contacts-section .adress {
+  float: left;
+}
+/* line 107, ../sass/600.scss */
+.top-contacts-section .logo img, .top-contacts-section .adress img {
+  width: 100%;
+  max-height: 100%;
+}
+/* line 112, ../sass/600.scss */
+.top-contacts-section .top-img-container {
+  max-width: 150px;
+  float: left;
+  border-left: 1px solid #cecece;
+  box-shadow: 1px 0 0 #fff inset;
+  margin-left: 10px;
+  padding-left: 10px;
+  height: auto;
+}
+/* line 121, ../sass/600.scss */
+.top-contacts-section .top-img-container img {
+  width: 100%;
+  max-height: 100%;
+}
+/* line 126, ../sass/600.scss */
+.top-contacts-section .top-contacts {
+  float: right;
+}
+/* line 131, ../sass/600.scss */
+.top-contacts-section .top-contacts .adress {
+  float: left;
+  text-align: right;
+  font-size: 13px;
+}
+/* line 136, ../sass/600.scss */
+.top-contacts-section .top-contacts .tel-holder {
+  float: right;
+  padding-left: 5px;
+  margin-left: 5px;
+  border-left: 1px solid #cecece;
+  box-shadow: 1px 0 0 #fff inset;
+}
+
+/* line 145, ../sass/600.scss */
+.pt8 {
+  display: none !important;
 }

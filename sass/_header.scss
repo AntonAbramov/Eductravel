@@ -5,6 +5,8 @@
 	margin:0 0 20px;
 	.custom-select-box {
 		width:87px;
+		float:left;
+		margin-right:10px;
 	}
 	.header-top-section {
 		float:right;
@@ -102,6 +104,8 @@
 			font-family: $bold;
 			sub {
 				color:#188ece;
+				margin-right:5px;
+				top:0;
 			}
 		}
 	}
