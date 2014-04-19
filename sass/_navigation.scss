@@ -1,8 +1,11 @@
 #menu {
 	float:left;
+	z-index: 2;
 }
 #nav {
 	float:left;
+	position: relative;
+	z-index: 2;
 	li {
 		float:left;
 		background: #f6f6f6;
@@ -36,7 +39,7 @@
 @media screen and (max-width: 768px) {
 	#menu {
 		width:1.4em;
-		display: block;
+		display: block!important;
 		font-size:1.35em;
 		text-align: center;
 		position:relative;
