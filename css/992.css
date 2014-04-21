@@ -18,61 +18,72 @@
 /* line 21, ../sass/992.scss */
 .top-contacts-section .top-contacts .adress {
   font-size: 17px;
+  padding-top: 8px;
 }
-/* line 24, ../sass/992.scss */
+/* line 25, ../sass/992.scss */
 .top-contacts-section .top-contacts .tel-holder {
   padding-left: 15px;
   margin-left: 15px;
   font-size: 30px;
 }
 
-/* line 36, ../sass/992.scss */
+/* line 37, ../sass/992.scss */
 .registration-section .field-control .msg {
   position: absolute;
 }
 
-/* line 42, ../sass/992.scss */
+/* line 43, ../sass/992.scss */
 .header .header-top-section {
   min-width: 330px;
 }
-/* line 47, ../sass/992.scss */
+/* line 48, ../sass/992.scss */
 .header .header-top-section ul li:last-child a {
   font-size: 12px;
 }
 
-/* line 56, ../sass/992.scss */
+/* line 57, ../sass/992.scss */
 .top-contacts-section .logo {
   max-width: 999em;
 }
 
-/* line 61, ../sass/992.scss */
+/* line 62, ../sass/992.scss */
 .main-interactive-section .main-interactive-block {
   text-align: left;
   float: left;
   width: 25%;
   border-left: 1px solid #e6e6e6;
 }
-/* line 66, ../sass/992.scss */
+/* line 67, ../sass/992.scss */
 .main-interactive-section .main-interactive-block:first-child {
   border-left: none;
 }
-/* line 69, ../sass/992.scss */
+/* line 70, ../sass/992.scss */
 .main-interactive-section .main-interactive-block .heading {
   margin: 0 0 20px;
 }
 
-/* line 74, ../sass/992.scss */
+/* line 75, ../sass/992.scss */
 .pt8 {
   display: block !important;
 }
 
-/* line 79, ../sass/992.scss */
+/* line 80, ../sass/992.scss */
 #nav li a {
   padding: 0 11px;
 }
 
-/* line 86, ../sass/992.scss */
+/* line 87, ../sass/992.scss */
 .tabs .tab-nav a {
   font-size: 14px;
   padding: 17px 20px;
+}
+
+/* line 93, ../sass/992.scss */
+.footer .footer-telephones {
+  font-size: 30px;
+}
+
+/* line 97, ../sass/992.scss */
+.process-map .map {
+  margin-left: 252px;
 }

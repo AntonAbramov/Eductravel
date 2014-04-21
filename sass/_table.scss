@@ -3,6 +3,9 @@
 		border:1px solid #ddd;
 		margin:0 ;
 		width:100%;
+		p {
+			word-break:break-all;
+		}
 		td {
 			border-left:1px solid #ddd;
 			&.td-name {
@@ -28,6 +31,7 @@
 			td {
 				padding:5px 5px;
 				font-size:14px;
+
 				input {
 					border:none;
 					background: #fff;
@@ -47,6 +51,8 @@
 			tr:nth-child(2n) {
 				td {
 					background: #fdfdfd;
+					word-break:break-all;
+
 				}
 			}
 			tr:hover, tr.active {
@@ -114,9 +120,11 @@
 	margin: 0 0 20px;
 }
 .table-slide {
-	//width:100%;
+	width:100%;
+	word-break:break-all;
 	font-size:14px;
 	color:#555555;
+
 	td {
 		border-bottom:1px solid #efefef;
 	}
@@ -131,6 +139,7 @@
 			padding:10px 5px 5px 5px;
 			&:first-child {
 				font-family: $bold;
+				width:200px;
 			}
 		}
 	}

@@ -18,6 +18,10 @@
 	.icons-exit {
 		left:13px;
 	}
+	.icons-question {
+		left:13px;
+		top:14px;
+	}
 	&.orange {
 		background: #ec8435;
 		color: #fff;
@@ -39,6 +43,18 @@
 		&:hover, &:focus {
 			background: #c8c8c8;
 			border:1px solid #a0a0a0;
+		}
+	}
+	&.blue {
+		background: #35a9e7;
+		border:1px solid #259ad8;
+		color:#fff;
+		min-width: 225px;
+		margin-bottom:10px;
+		font-size: 16px;
+
+		&:hover {
+			background: #45afe8;
 		}
 	}
 }

@@ -20,6 +20,7 @@
 	.top-contacts {
 		.adress {
 			font-size: 17px;
+			padding-top:8px;
 		}
 		.tel-holder {
 			padding-left: 15px;
@@ -87,5 +88,13 @@
 			font-size: 14px;
 			padding:17px 20px;
 		}
+	}
+}
+.footer .footer-telephones {
+	font-size: 30px;
+}
+.process-map {
+	.map {
+			margin-left:252px;
 	}
 }

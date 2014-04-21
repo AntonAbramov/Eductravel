@@ -7,9 +7,31 @@ $(document).ready(function () {
 //		width: 940,
 		height: 263
 	});
-	$(".slider-page").slidesjs({
-		height: '1200'
-	});
+	if ($(window).width() <801) {
+		$(".slider-page").slidesjs({
+			height: '1500'
+		});
+	}
+	else if ($(window).width() <998) {
+		$(".slider-page").slidesjs({
+			height: '1200'
+		});
+	}
+	else if ($(window).width() <1100) {
+		$(".slider-page").slidesjs({
+			height: '1040'
+		});
+	}
+	else if ($(window).width() <1200) {
+		$(".slider-page").slidesjs({
+			height: '940'
+		});
+	}
+	else {
+		$(".slider-page").slidesjs({
+			height: '860'
+		});
+	}
 	//tabs();
 	showAll();
 	popup();

@@ -47,7 +47,7 @@ input[type="password"]{
 	height:35px;
 	color:#aeaeae;
 	border:1px solid #ddd;
-	padding:10px 10px;
+	padding:5px 10px;
 	&:focus, &:hover {
 		border-color:#f1bd95;
 	}
@@ -261,7 +261,7 @@ input[type="password"]{
 		}
 
 	}
-	.btn.orange {
+	.btn.orange, .btn.blue {
 		min-width: 225px;
 		margin:0 auto 10px;
 		position:relative;
@@ -485,9 +485,14 @@ input[type="password"]{
 			background: #ec8435;
 		}
 	}
-
-	.prev, .prev-video {
+	.block-info-count {
 		right:30px;
+		position:absolute;
+		z-index: 2;
+		top:5px;
+	}
+	.prev, .prev-video {
+		right:85px;
 		&:after {
 			@include icons-sprite(white-arrow-prev);
 		}
@@ -695,7 +700,7 @@ input[type="password"]{
 .scroll-section {
 	margin:0 0 20px;
 	overflow:auto;
-	height:200px;
+	height:456px;
 }
 .mr26 {
 	margin-right:26px!important;
@@ -727,4 +732,12 @@ input[type="password"]{
 }
 .bg-white {
 	background: #fff;
+}
+
+@media only screen and (min-width: 1110px){
+	.process-map {
+		.map {
+				margin-left:142px!important;
+		}
+	}
 }

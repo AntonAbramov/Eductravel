@@ -1,8 +1,3 @@
-/* line 2, ../sass/768.scss */
-.tab-content .tab {
-  display: none;
-}
-
 /* line 7, ../sass/768.scss */
 .footer .footer-block {
   width: 25%;
@@ -71,7 +66,7 @@
 }
 
 /* line 76, ../sass/768.scss */
-.sidebar .btn.orange {
+.sidebar .btn.orange, .sidebar .btn.blue {
   margin: 0 0 10px;
   left: 0;
 }
@@ -104,4 +99,22 @@
 /* line 102, ../sass/768.scss */
 .sidebar .contacts ul li .icons-footer-fb {
   left: 4px;
+}
+
+/* line 109, ../sass/768.scss */
+.two-columns-sizes {
+  height: auto;
+  margin: 0;
+  position: relative;
+}
+/* line 113, ../sass/768.scss */
+.two-columns-sizes .picture-list {
+  width: auto;
+}
+/* line 116, ../sass/768.scss */
+.two-columns-sizes .video-list {
+  width: auto;
+  position: relative;
+  top: auto;
+  right: auto;
 }

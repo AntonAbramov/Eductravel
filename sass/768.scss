@@ -1,6 +1,6 @@
 .tab-content {
 	.tab {
-		display:none;
+		//display:none;
 	}
 }
 .footer {
@@ -73,7 +73,7 @@
 	text-align: left;
 }
 .sidebar {
-	.btn.orange {
+	.btn.orange, .btn.blue {
 		margin:0 0 10px;
 		left:0;
 	}
@@ -105,4 +105,19 @@
 			}
 		}
 		}
+}
+.two-columns-sizes {
+	height:auto;
+	margin: 0;
+	position:relative;
+	.picture-list {
+		width:auto;
+	}
+	.video-list {
+			width:auto;
+
+		position:relative;
+		top:auto;
+		right:auto;
+	}
 }

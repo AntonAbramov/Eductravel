@@ -145,3 +145,19 @@
 .pt8 {
 	display: none!important;
 }
+
+.two-columns-sizes {
+	height:240px;
+	margin: 0 0 20px;
+	position:relative;
+	.picture-list {
+		width:45%;
+	}
+	.video-list {
+		width:45%;
+
+		position:absolute;
+		top:0;
+		right:0;
+	}
+}

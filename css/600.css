@@ -165,3 +165,21 @@
 .pt8 {
   display: none !important;
 }
+
+/* line 149, ../sass/600.scss */
+.two-columns-sizes {
+  height: 240px;
+  margin: 0 0 20px;
+  position: relative;
+}
+/* line 153, ../sass/600.scss */
+.two-columns-sizes .picture-list {
+  width: 45%;
+}
+/* line 156, ../sass/600.scss */
+.two-columns-sizes .video-list {
+  width: 45%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
