@@ -14,11 +14,20 @@
 	}
 	.sidebar {
 		position: absolute;
-		width:300px;
+		width:240px;
 		top:0;
 		bottom:0;
 		right:0;
+		.agent {
+			a {
+				margin-right: 2px;
+			}
+		}
+		.icons-user {
+			display:none;
+		}
 	}
+
 }
 .enter-section {
 	padding:20px;
@@ -145,19 +154,37 @@
 .pt8 {
 	display: none!important;
 }
+/*
+.w600-side-block {
+	width:45%;
+	position:absolute;
+	right:0;
+	padding-right:40px;
+	top:250px;
+	.contacts {
+		text-align:left;
+	}
+	 .btn.orange, .btn.blue {
+		width:100%;
+	}
 
+}
 .two-columns-sizes {
 	height:240px;
+	height:400px;
 	margin: 0 0 20px;
 	position:relative;
 	.picture-list {
 		width:45%;
+		position:absolute;
+		top:-160px;
+		right:0;
 	}
 	.video-list {
 		width:45%;
 
 		position:absolute;
-		top:0;
-		right:0;
+		top:70px;
+		left:0;
 	}
-}
+}*/

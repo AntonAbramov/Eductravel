@@ -12,24 +12,10 @@
 .top-contacts-section {
 	.top-img-container {
 		display: block;
-		max-width:999em;
 		margin-left:20px;
 		padding-left:20px;
 		height:80px;
 	}
-	.top-contacts {
-		.adress {
-			font-size: 17px;
-			padding-top:8px;
-		}
-		.tel-holder {
-			padding-left: 15px;
-			margin-left:15px;
-			font-size: 30px;
-		}
-	}
-
-
 }
 
 .registration-section {
@@ -84,7 +70,7 @@
 }
 .tabs {
 	.tab-nav {
-		a {
+		.sub-menu-holder {
 			font-size: 14px;
 			padding:17px 20px;
 		}
@@ -95,6 +81,43 @@
 }
 .process-map {
 	.map {
-			margin-left:252px;
+			//margin-left:252px;
 	}
 }
+.slider-page {
+	.container-sidebar-right {
+		.sidebar {
+			width:300px;
+			.agent {
+				a {
+					margin-right:20px;
+				}
+				.icons-user {
+					display:inline-block;
+				}
+			}
+			.contacts {
+				h2 {
+					font-size: 24px;
+				}
+				ul li.phone {
+					font-size: 24px;
+				}
+			}
+		}
+		.content {
+			margin-right:300px;
+		}
+	}
+}
+.table-slide {
+	tr {
+		td:first-child {
+			width:200px;
+		}
+	}
+}
+//.w600-side-block {
+//	position:relative;
+//	width:auto;
+//}

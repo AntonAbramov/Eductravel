@@ -13,7 +13,7 @@
 
 .tabs {
 	.tab-nav {
-		a {
+		.sub-menu-holder  {
 			font-size: 14px;
 			padding:17px 5px;
 		}
@@ -23,6 +23,7 @@
 	width:50%;
 	float:left;
 	display:block;
+	margin-bottom:20px;
 }
 .post-list h2 {
 	font-size: 24px;
@@ -76,11 +77,12 @@
 	.btn.orange, .btn.blue {
 		margin:0 0 10px;
 		left:0;
+		width:100%;
 	}
 		.contacts {
 		h2 {
 			text-transform: uppercase;
-			font-size: 24px;
+			font-size: 20px;
 		}
 		ul {
 			li{
@@ -90,7 +92,7 @@
 				font-size: 18px;
 				&.phone {
 					color:#ec8435;
-					font-size: 24px;
+					font-size: 20px;
 				}
 				a, .skype {
 					color:#188ece;
@@ -121,3 +123,4 @@
 		right:auto;
 	}
 }
+

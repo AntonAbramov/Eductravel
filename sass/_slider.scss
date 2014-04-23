@@ -1,6 +1,7 @@
 .slider {
 	padding-bottom:40px;
 	position:relative;
+	margin-bottom:20px!important;
 	> img {
 		max-width: 100%;
 	}
@@ -58,10 +59,10 @@
 	display: inline-block;
 	text-indent: -9999em;
 	background: rgba(255,255,255, .5);
-	width:25px;
+	width:35px;
 	height:35px;
 	position:absolute;
-	bottom:40px;
+	bottom:0;
 
 	z-index: 5;
 }
@@ -174,7 +175,7 @@
 			border-top:1px solid #ddd;
 			border-left:1px solid #ddd;
 			background: #f9f9f9;
-			margin-right:300px;
+			margin-right:240px;
 			//min-height: 1000px;
 		}
 		.sidebar {

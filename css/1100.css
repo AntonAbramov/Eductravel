@@ -1,0 +1,15 @@
+/* line 2, ../sass/1100.scss */
+.top-contacts-section .top-img-container {
+  max-width: 9999em;
+}
+/* line 6, ../sass/1100.scss */
+.top-contacts-section .top-contacts .adress {
+  font-size: 17px;
+  padding-top: 8px;
+}
+/* line 10, ../sass/1100.scss */
+.top-contacts-section .top-contacts .tel-holder {
+  padding-left: 15px;
+  margin-left: 15px;
+  font-size: 30px;
+}

@@ -3,6 +3,7 @@ body {
 	font-size: 18px;
 	font-family: helveticaneuecyrlight;
 	color:#555;
+	min-width: 768px;
 }
 h1,h2,h3,h4,h5,h6 {
 	margin-top:0;
@@ -81,6 +82,8 @@ input[type="password"]{
 	}
 }
 .page-amount-info {
+	margin:0 0 20px;
+	line-height: 24px;
 	.btn-prev, .btn-next {
 		float:left;
 	}
@@ -225,6 +228,7 @@ input[type="password"]{
 	.personal-block {
 		margin:0 0 20px;
 		.you {
+			font-size:16px;
 			color:#c7c7c7;
 			text-transform: uppercase;
 			margin-bottom:20px;
@@ -262,7 +266,7 @@ input[type="password"]{
 
 	}
 	.btn.orange, .btn.blue {
-		min-width: 225px;
+		min-width: 215px;
 		margin:0 auto 10px;
 		position:relative;
 		left:10px;
@@ -464,7 +468,7 @@ input[type="password"]{
 	}
 	.next, .prev, .next-video, .prev-video {
 		position:absolute;
-		top:5px;
+		top:2px;
 		text-indent: -9999em;
 		display: block;
 		width:22px;
@@ -490,9 +494,11 @@ input[type="password"]{
 		position:absolute;
 		z-index: 2;
 		top:5px;
+		font-size:14px;
+		color:#ababab;
 	}
 	.prev, .prev-video {
-		right:85px;
+		right:75px;
 		&:after {
 			@include icons-sprite(white-arrow-prev);
 		}
@@ -673,6 +679,58 @@ input[type="password"]{
 		opacity: 0;
 	}
 }
+.custom-select-item {
+	display:inline-block;
+	position:relative;
+	height:36px;
+	border:1px solid #bcbcbc;
+	background: #ffffff;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjclIiBzdG9wLWNvbG9yPSIjZmJmYmZiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZjlmOWY5IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 7%, #f9f9f9 50%, #f2f2f2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#fbfbfb), color-stop(50%,#f9f9f9), color-stop(100%,#f2f2f2));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 7%,#f9f9f9 50%,#f2f2f2 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 7%,#f9f9f9 50%,#f2f2f2 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 7%,#f9f9f9 50%,#f2f2f2 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 7%,#f9f9f9 50%,#f2f2f2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 );
+	border-radius: 2px;
+	box-shadow:0 0 1px #fff inset;
+	top:3px;
+	width:230px;
+	&:after {
+		content:"";
+		background: url(../img/select-arrow.png);
+		right:13px;
+		top:15px;
+		width:10px;
+		height:6px;
+		position: absolute;
+	}
+	.select-value {
+		position:absolute;
+		top:0;
+		left:0;
+		z-index: 1;
+		font-size:12px;
+		color:#717171;
+		font-family: $bold;
+		padding:0 0 0 15px;
+		border-right:1px solid #bcbcbc;
+
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		line-height: 34px;
+		width:191px;
+		overflow: hidden;
+	}
+	select {
+		position:relative;
+		z-index: 2;
+		width:100%;
+		height:35px;
+		opacity: 0;
+	}
+}
 .overlay {
 	background: rgba(255,255,255, .7);
 	position:absolute;
@@ -717,18 +775,20 @@ input[type="password"]{
 		position:relative!important;
 		left:0!important;
 	}
-	.container-sidebar-right .content{
-			margin-right:0!important;
-		}
+	//.container-sidebar-right .content{
+	//		margin-right:0!important;
+	//	}
 
-	.container-sidebar-right .sidebar {
-		width:auto!important;
-		position:relative!important;
+	//.container-sidebar-right .sidebar {
+	//	width:auto!important;
+	//	position:relative!important;
+	//}
+	//.container-sidebar-right .contacts .icon {
+	//	display: none;
+	//}
+	.slider-page .container-sidebar-right {
+		min-height: 1170px;
 	}
-	.container-sidebar-right .contacts .icon {
-		display: none;
-	}
-
 }
 .bg-white {
 	background: #fff;
@@ -737,7 +797,7 @@ input[type="password"]{
 @media only screen and (min-width: 1110px){
 	.process-map {
 		.map {
-				margin-left:142px!important;
+				//margin-left:142px!important;
 		}
 	}
 }

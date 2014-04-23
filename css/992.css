@@ -10,80 +10,93 @@
 /* line 13, ../sass/992.scss */
 .top-contacts-section .top-img-container {
   display: block;
-  max-width: 999em;
   margin-left: 20px;
   padding-left: 20px;
   height: 80px;
 }
-/* line 21, ../sass/992.scss */
-.top-contacts-section .top-contacts .adress {
-  font-size: 17px;
-  padding-top: 8px;
-}
-/* line 25, ../sass/992.scss */
-.top-contacts-section .top-contacts .tel-holder {
-  padding-left: 15px;
-  margin-left: 15px;
-  font-size: 30px;
-}
 
-/* line 37, ../sass/992.scss */
+/* line 23, ../sass/992.scss */
 .registration-section .field-control .msg {
   position: absolute;
 }
 
-/* line 43, ../sass/992.scss */
+/* line 29, ../sass/992.scss */
 .header .header-top-section {
   min-width: 330px;
 }
-/* line 48, ../sass/992.scss */
+/* line 34, ../sass/992.scss */
 .header .header-top-section ul li:last-child a {
   font-size: 12px;
 }
 
-/* line 57, ../sass/992.scss */
+/* line 43, ../sass/992.scss */
 .top-contacts-section .logo {
   max-width: 999em;
 }
 
-/* line 62, ../sass/992.scss */
+/* line 48, ../sass/992.scss */
 .main-interactive-section .main-interactive-block {
   text-align: left;
   float: left;
   width: 25%;
   border-left: 1px solid #e6e6e6;
 }
-/* line 67, ../sass/992.scss */
+/* line 53, ../sass/992.scss */
 .main-interactive-section .main-interactive-block:first-child {
   border-left: none;
 }
-/* line 70, ../sass/992.scss */
+/* line 56, ../sass/992.scss */
 .main-interactive-section .main-interactive-block .heading {
   margin: 0 0 20px;
 }
 
-/* line 75, ../sass/992.scss */
+/* line 61, ../sass/992.scss */
 .pt8 {
   display: block !important;
 }
 
-/* line 80, ../sass/992.scss */
+/* line 66, ../sass/992.scss */
 #nav li a {
   padding: 0 11px;
 }
 
-/* line 87, ../sass/992.scss */
-.tabs .tab-nav a {
+/* line 73, ../sass/992.scss */
+.tabs .tab-nav .sub-menu-holder {
   font-size: 14px;
   padding: 17px 20px;
 }
 
-/* line 93, ../sass/992.scss */
+/* line 79, ../sass/992.scss */
 .footer .footer-telephones {
   font-size: 30px;
 }
 
-/* line 97, ../sass/992.scss */
-.process-map .map {
-  margin-left: 252px;
+/* line 89, ../sass/992.scss */
+.slider-page .container-sidebar-right .sidebar {
+  width: 300px;
+}
+/* line 92, ../sass/992.scss */
+.slider-page .container-sidebar-right .sidebar .agent a {
+  margin-right: 20px;
+}
+/* line 95, ../sass/992.scss */
+.slider-page .container-sidebar-right .sidebar .agent .icons-user {
+  display: inline-block;
+}
+/* line 100, ../sass/992.scss */
+.slider-page .container-sidebar-right .sidebar .contacts h2 {
+  font-size: 24px;
+}
+/* line 103, ../sass/992.scss */
+.slider-page .container-sidebar-right .sidebar .contacts ul li.phone {
+  font-size: 24px;
+}
+/* line 108, ../sass/992.scss */
+.slider-page .container-sidebar-right .content {
+  margin-right: 300px;
+}
+
+/* line 115, ../sass/992.scss */
+.table-slide tr td:first-child {
+  width: 200px;
 }

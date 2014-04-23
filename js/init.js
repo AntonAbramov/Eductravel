@@ -36,7 +36,8 @@ $(document).ready(function () {
 	showAll();
 	popup();
 	customSelect();
-
+	customSelect2();
+	
 	if($(".carusel").length) {
 		$(".carusel").jCarouselLite({
 	        btnNext: ".next",
@@ -215,6 +216,16 @@ customSelect = function(){
 		$(this).find(".select-value").text(currentValue);
 	});
 	$(".custom-select-box").find("select").on("change", function(){
+		$(this).parent().find(".select-value").text($(this).find("option:checked").text());
+	})
+
+}
+customSelect2 = function(){
+	$(".custom-select-item").each(function(){
+		var currentValue = $(this).find("select").find("option:checked").text();
+		$(this).find(".select-value").text(currentValue);
+	});
+	$(".custom-select-item").find("select").on("change", function(){
 		$(this).parent().find(".select-value").text($(this).find("option:checked").text());
 	})
 

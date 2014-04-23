@@ -1,15 +1,14 @@
 .process-map {
-
 	.select-choose {
 		vertical-align: top;
 	}
 	.map {
-		margin-left:229px;
+		//margin-left:229px;
 		background: url(../img/map-list.png) no-repeat;
-		min-height:140px;
+		//min-height:140px;
 		position:relative;
 		display: inline-block;
-		width:740px;
+		//width:740px;
 		> div {
 			position:absolute;
 			z-index: 1;
@@ -101,6 +100,26 @@
 
 				}
 			}
+		}
+	}
+	.map-selects {
+		width:25%;
+		float:left;
+		margin:0 0 20px;
+
+	}
+	.map-pre {
+		margin:0 0 20px;
+		width:75%;
+		float:left;
+	}
+	.map {
+		background: none;
+		width:auto;
+
+		img {
+			display: block;
+			width:100%;
 		}
 	}
 

@@ -6,9 +6,11 @@
 	float:left;
 	position: relative;
 	z-index: 2;
-	li {
+
+	> li {
 		float:left;
 		background: #f6f6f6;
+		position: relative;
 		a {
 			display: block;
 			text-decoration: none;
@@ -19,6 +21,7 @@
 			border:1px solid #d5d5d5;
 			line-height:44px;
 			font-family: $bold;
+			border-left: 0;
 			&:hover, &:focus {
 				background:#fbfbfb;
 			}
@@ -31,6 +34,28 @@
 				&:hover, &:focus {
 					background:#ec8435;
 				}
+			}
+		}
+		&:first-child {
+			a{
+				border-left:1px solid #d5d5d5;
+			}
+		}
+		ul {
+			display: none;
+			position: absolute;
+			top:45px;
+			background: #f6f6f6;
+			left:0;
+			z-index: 222;
+			width:150px;
+			a {
+				border-top:none;
+			}
+		}
+		&:hover {
+			ul {
+				display: block;
 			}
 		}
 	}

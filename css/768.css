@@ -6,7 +6,7 @@
 }
 
 /* line 16, ../sass/768.scss */
-.tabs .tab-nav a {
+.tabs .tab-nav .sub-menu-holder {
   font-size: 14px;
   padding: 17px 5px;
 }
@@ -16,102 +16,104 @@
   width: 50%;
   float: left;
   display: block;
+  margin-bottom: 20px;
 }
 
-/* line 27, ../sass/768.scss */
+/* line 28, ../sass/768.scss */
 .post-list h2 {
   font-size: 24px;
 }
 
-/* line 33, ../sass/768.scss */
+/* line 34, ../sass/768.scss */
 .top-contacts-section .top-img-container {
   display: block;
 }
 
-/* line 38, ../sass/768.scss */
+/* line 39, ../sass/768.scss */
 .show-all-block .show-all-container {
   height: 48px;
   font-size: 18px;
   line-height: 24px;
 }
 
-/* line 48, ../sass/768.scss */
+/* line 49, ../sass/768.scss */
 .custom-table table thead td {
   padding: 5px;
   font-size: 14px;
 }
-/* line 51, ../sass/768.scss */
+/* line 52, ../sass/768.scss */
 .custom-table table thead td input {
   margin-right: 100px;
 }
-/* line 55, ../sass/768.scss */
+/* line 56, ../sass/768.scss */
 .custom-table table thead td a {
   color: #fff;
 }
-/* line 61, ../sass/768.scss */
+/* line 62, ../sass/768.scss */
 .custom-table table tbody td {
   padding: 20px 10px;
   font-size: 18px;
 }
 
-/* line 68, ../sass/768.scss */
+/* line 69, ../sass/768.scss */
 .picture-list {
   margin-right: 0;
   float: none;
 }
 
-/* line 72, ../sass/768.scss */
+/* line 73, ../sass/768.scss */
 .sidebar .contacts {
   text-align: left;
 }
 
-/* line 76, ../sass/768.scss */
+/* line 77, ../sass/768.scss */
 .sidebar .btn.orange, .sidebar .btn.blue {
   margin: 0 0 10px;
   left: 0;
+  width: 100%;
 }
-/* line 81, ../sass/768.scss */
+/* line 83, ../sass/768.scss */
 .sidebar .contacts h2 {
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
 }
-/* line 86, ../sass/768.scss */
+/* line 88, ../sass/768.scss */
 .sidebar .contacts ul li {
   padding-left: 30px;
   position: relative;
   margin: 0 0 10px;
   font-size: 18px;
 }
-/* line 91, ../sass/768.scss */
+/* line 93, ../sass/768.scss */
 .sidebar .contacts ul li.phone {
   color: #ec8435;
-  font-size: 24px;
+  font-size: 20px;
 }
-/* line 95, ../sass/768.scss */
+/* line 97, ../sass/768.scss */
 .sidebar .contacts ul li a, .sidebar .contacts ul li .skype {
   color: #188ece;
 }
-/* line 98, ../sass/768.scss */
+/* line 100, ../sass/768.scss */
 .sidebar .contacts ul li .icon {
   position: absolute;
   left: 0;
 }
-/* line 102, ../sass/768.scss */
+/* line 104, ../sass/768.scss */
 .sidebar .contacts ul li .icons-footer-fb {
   left: 4px;
 }
 
-/* line 109, ../sass/768.scss */
+/* line 111, ../sass/768.scss */
 .two-columns-sizes {
   height: auto;
   margin: 0;
   position: relative;
 }
-/* line 113, ../sass/768.scss */
+/* line 115, ../sass/768.scss */
 .two-columns-sizes .picture-list {
   width: auto;
 }
-/* line 116, ../sass/768.scss */
+/* line 118, ../sass/768.scss */
 .two-columns-sizes .video-list {
   width: auto;
   position: relative;

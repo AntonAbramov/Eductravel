@@ -14,11 +14,12 @@
 	<link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
 	<link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
 	<link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
+	<link rel="stylesheet" media="only screen and (min-width: 1100px)" href="css/1100.css">
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 </head>
-<body style="min-width: 600px;">
+<body>
 	<header class="header">
 		<div class="w960">
 			<ul class="cf" id="nav">
@@ -72,38 +73,59 @@
 			</div>
 		</div>
 	</section>
-	<section style="background:#f9f9f9;" class="tabs">
+	<section class="slider w960">
+		<img src="img/slide-small.jpg" alt="">
+	</section>
+	<section style="background:#f9f9f9; border-bottom:5px solid #dddddd;" class="tabs">
 		<nav class="tab-nav">
 			<div class="w960">
-				<a class="current" href="#">Изучение языка</a>
-				<a href="#">Среднее образование <span>7-16 лет</span></a>
-				<a href="#">Подготовка к университету <span>16+ лет</span></a>
-				<a href="#">Высшее образование <span>17+ Лет</span></a>
+				<span class="sub-menu-holder current">
+					<a href="#">Изучение языка</a>
+					<span class="sub-menu">
+						<a href="#">another Menu</a>
+						<a href="#">another Menu</a>
+						<a href="#">another Menu</a>
+						<a href="#">another Menu</a>
+					</span>
+				</span>
+				<span class="sub-menu-holder"><a href="#">Среднее образование <span>7-16 лет</span></a></span>
+				<span class="sub-menu-holder"><a href="#">Подготовка к университету <span>16+ лет</span></a></span>
+				<span class="sub-menu-holder"><a href="#">Высшее образование <span>17+ Лет</span></a></span>
 			</div>
 		</nav>
 		<div class="tab-content w960">
 			<div>
-				<div class="process-map">
-					<select class="select-choose" name="">
-						<option value="">Великобритания</option>
-						<option value="">Великобритания2</option>
-						<option value="">Великобритания3</option>
-					</select>
-					<div class="map">
-						<div class="gcse"><span class="name">GCSE</span></div>
-						<div class="alevel">
-							<span class="name">A-Level</span>
-							<span class="text">
-								A-level – это программа подготовки к поступлению в университеты Англии, поступить на которую могут и иностранные студенты. По ее результатам абитуриенты могут поступать в вузы без дополнительных вступительных экзаменов.
-							</span>
+				<div class="process-map cf">
+
+					<div class="map-selects">
+						<div class="custom-select-item">
+							<span class="select-value">Русский</span>
+							<select class="select-choose" name="">
+								<option value="">Великобритания</option>
+								<option value="">Великобритания2</option>
+								<option value="">Великобритания3</option>
+							</select>
 						</div>
-						<div class="ib"><span class="name">IB</span></div>
-						<div class="fc"><span class="name">Foundation Cources</span></div>
-						<div class="premasters"><span class="name">Premasters</span></div>
-						<div class="baca"><span class="name">Bacalavriat</span></div>
-						<div class="prof"><span class="name">Prof. Diploma</span></div>
-						<div class="masters"><span class="name">Masters</span></div>
-						<div class="mba"><span class="name">MBA</span></div>
+
+					</div>
+					<div class="map-pre">
+						<div class="map">
+							<img src="img/map.png" alt=""/>
+							<!--<div class="gcse"><span class="name">GCSE</span></div>
+							<div class="alevel">
+								<span class="name">A-Level</span>
+								<span class="text">
+									A-level – это программа подготовки к поступлению в университеты Англии, поступить на которую могут и иностранные студенты. По ее результатам абитуриенты могут поступать в вузы без дополнительных вступительных экзаменов.
+								</span>
+							</div>
+							<div class="ib"><span class="name">IB</span></div>
+							<div class="fc"><span class="name">Foundation Cources</span></div>
+							<div class="premasters"><span class="name">Premasters</span></div>
+							<div class="baca"><span class="name">Bacalavriat</span></div>
+							<div class="prof"><span class="name">Prof. Diploma</span></div>
+							<div class="masters"><span class="name">Masters</span></div>
+							<div class="mba"><span class="name">MBA</span></div>-->
+						</div>
 					</div>
 					<div class="more-info">
 						Подробнее с системой образования в Великобритании Вы можете ознакомиться <a href="#">здесь</a>
@@ -399,21 +421,23 @@
 								</div>
 							</section>
 						</div>
-						<button class="orange btn make-order-js btn-icon"><i class="icon icons-list"></i>Сделать заявку</button>
-						<button class="blue btn make-order-js btn-icon"><i class="icon icons-question"></i>Запросить подробную<br /> информацию</button>
-						<section class="contacts">
-							<h2>Задать вопрос</h2>
-							<ul>
-								<li class="phone">
-									<i class="icon icons-phone"></i> <strong>(044) 596-18-23 </strong>
-								</li>
-								<li><i class="icon icons-footer-mail"></i><a href="mailto:info@eductravel.com.ua">info@eductravel.com.ua</a></li>
-								<li><i class="icon icons-footer-skype"></i>Skype: <span class="skype">eductravel</span></li>
-								<li><i class="icon icons-footer-fb"></i><a href="">Facebook</a></li>
-								<li><i class="icon icons-footer-tw"></i><a href="">Twitter</a></li>
-								<li><i class="icon icons-footer-chat"></i><a href="">On-Line ЧАТ</a></li>
-							</ul>
-						</section>
+						<div class="w600-side-block">
+							<button class="orange btn make-order-js btn-icon"><i class="icon icons-list"></i>Сделать заявку</button>
+							<button class="blue btn make-order-js btn-icon"><i class="icon icons-question"></i>Запросить подробную<br /> информацию</button>
+							<section class="contacts">
+								<h2>Задать вопрос</h2>
+								<ul>
+									<li class="phone">
+										<i class="icon icons-phone"></i> <strong>(044) 596-18-23 </strong>
+									</li>
+									<li><i class="icon icons-footer-mail"></i><a href="mailto:info@eductravel.com.ua">info@eductravel.com.ua</a></li>
+									<li><i class="icon icons-footer-skype"></i>Skype: <span class="skype">eductravel</span></li>
+									<li><i class="icon icons-footer-fb"></i><a href="">Facebook</a></li>
+									<li><i class="icon icons-footer-tw"></i><a href="">Twitter</a></li>
+									<li><i class="icon icons-footer-chat"></i><a href="">On-Line ЧАТ</a></li>
+								</ul>
+							</section>
+						</div>
 					</aside>
 				</div>
 			</div>
@@ -559,6 +583,106 @@
 			<div>4</div>
 		</div>
 	</div>
+	<section class="special-offer-section">
+		<div class="w960">
+
+			<div class="special-offer">
+				<div class="post-list">
+					<h2>Спецпредложения</h2>
+					<div class="post-list-items">
+						<ul>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат 123 123 123a 1a3 1aa23123123 </a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+						</ul>
+					</div>
+					<div class="page-amount-info">
+						<button class="btn-prev"><i class="icon icons-left-small"></i></button>
+						<button class="btn-next"><i class="icon icons-right-small"></i></button>
+						<span class="post-list-items-info">
+							<span class="first-visible-page">1</span>
+							-
+							<span class="last-visible-page">5</span>
+							из
+							<span class="visible-page-amount">9</span>
+						</span>
+					</div>
+				</div>
+
+			</div>
+			<div class="special-offer">
+				<div class="post-list">
+					<h2>Спецпредложения</h2>
+					<div class="post-list-items">
+						<ul>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат 123 123 123a 1a3 1aa23123123 </a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+							<li>
+								<a href="#">Дистанционное обучение, On-Line Чат</a>
+							</li>
+						</ul>
+					</div>
+					<div class="page-amount-info">
+						<button class="btn-prev"><i class="icon icons-left-small"></i></button>
+						<button class="btn-next"><i class="icon icons-right-small"></i></button>
+						<span class="post-list-items-info">
+							<span class="first-visible-page">1</span>
+							-
+							<span class="last-visible-page">5</span>
+							из
+							<span class="visible-page-amount">9</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="main-interactive-section">
 		<div class="w960">
 			<div class="main-interactive-block">
