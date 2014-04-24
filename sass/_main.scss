@@ -680,7 +680,7 @@ input[type="password"]{
 	}
 }
 .custom-select-item {
-	display:inline-block;
+	display:block;
 	position:relative;
 	height:36px;
 	border:1px solid #bcbcbc;
@@ -696,7 +696,16 @@ input[type="password"]{
 	border-radius: 2px;
 	box-shadow:0 0 1px #fff inset;
 	top:3px;
-	width:230px;
+	margin-bottom:10px;
+	&:before {
+		content:"";
+		height:36px;
+		top:0;
+		right:35px;
+		border-right:1px solid #bcbcbc;
+		width:1px;
+		position: absolute;
+	}
 	&:after {
 		content:"";
 		background: url(../img/select-arrow.png);
@@ -715,13 +724,13 @@ input[type="password"]{
 		color:#717171;
 		font-family: $bold;
 		padding:0 0 0 15px;
-		border-right:1px solid #bcbcbc;
-
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		line-height: 34px;
-		width:191px;
 		overflow: hidden;
+		display: block;
+		width:100%;
+		padding-right:35px;
 	}
 	select {
 		position:relative;
@@ -800,4 +809,28 @@ input[type="password"]{
 				//margin-left:142px!important;
 		}
 	}
+}
+
+.filter-column1,
+.filter-column2{
+	float:left;
+
+}
+.filter-column1 {
+	width:25%;
+	padding-right:20px;
+	.inn {
+		min-height: 488px;
+		background: #f9f9f9;
+		border:1px solid #ddd;
+		padding:20px 10px;
+		.heading {
+			text-transform: uppercase;
+			font-size:18px;
+			margin:0 0 10px;
+		}
+	}
+}
+.filter-column2 {
+	width:75%;
 }

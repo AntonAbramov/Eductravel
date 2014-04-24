@@ -1073,6 +1073,10 @@
 .process-map .more-info a:hover {
   text-decoration: none;
 }
+/* line 137, ../sass/_map.scss */
+.process-map .custom-select-item {
+  max-width: 250px;
+}
 
 /* line 2, ../sass/_table.scss */
 .custom-table table {
@@ -2891,7 +2895,7 @@ input[type="password"]:hover {
 
 /* line 682, ../sass/_main.scss */
 .custom-select-item {
-  display: inline-block;
+  display: block;
   position: relative;
   height: 36px;
   border: 1px solid #bcbcbc;
@@ -2907,9 +2911,19 @@ input[type="password"]:hover {
   border-radius: 2px;
   box-shadow: 0 0 1px #fff inset;
   top: 3px;
-  width: 230px;
+  margin-bottom: 10px;
 }
 /* line 700, ../sass/_main.scss */
+.custom-select-item:before {
+  content: "";
+  height: 36px;
+  top: 0;
+  right: 35px;
+  border-right: 1px solid #bcbcbc;
+  width: 1px;
+  position: absolute;
+}
+/* line 709, ../sass/_main.scss */
 .custom-select-item:after {
   content: "";
   background: url(../img/select-arrow.png);
@@ -2919,7 +2933,7 @@ input[type="password"]:hover {
   height: 6px;
   position: absolute;
 }
-/* line 709, ../sass/_main.scss */
+/* line 718, ../sass/_main.scss */
 .custom-select-item .select-value {
   position: absolute;
   top: 0;
@@ -2929,14 +2943,15 @@ input[type="password"]:hover {
   color: #717171;
   font-family: "helveticaneuecyrmedium";
   padding: 0 0 0 15px;
-  border-right: 1px solid #bcbcbc;
   white-space: nowrap;
   text-overflow: ellipsis;
   line-height: 34px;
-  width: 191px;
   overflow: hidden;
+  display: block;
+  width: 100%;
+  padding-right: 35px;
 }
-/* line 726, ../sass/_main.scss */
+/* line 735, ../sass/_main.scss */
 .custom-select-item select {
   position: relative;
   z-index: 2;
@@ -2945,7 +2960,7 @@ input[type="password"]:hover {
   opacity: 0;
 }
 
-/* line 734, ../sass/_main.scss */
+/* line 743, ../sass/_main.scss */
 .overlay {
   background: rgba(255, 255, 255, 0.7);
   position: absolute;
@@ -2957,7 +2972,7 @@ input[type="password"]:hover {
   right: 0;
   z-index: 11;
 }
-/* line 744, ../sass/_main.scss */
+/* line 753, ../sass/_main.scss */
 .overlay .preloader {
   top: 50%;
   left: 50%;
@@ -2971,36 +2986,66 @@ input[type="password"]:hover {
   text-indent: -99999em;
 }
 
-/* line 758, ../sass/_main.scss */
+/* line 767, ../sass/_main.scss */
 .scroll-section {
   margin: 0 0 20px;
   overflow: auto;
   height: 456px;
 }
 
-/* line 763, ../sass/_main.scss */
+/* line 772, ../sass/_main.scss */
 .mr26 {
   margin-right: 26px !important;
 }
 
 @media all and (max-width: 780px) {
-  /* line 771, ../sass/_main.scss */
+  /* line 780, ../sass/_main.scss */
   .slider-page .slidesjs-container, .slider-page .slidesjs-control {
     height: auto !important;
   }
 
-  /* line 774, ../sass/_main.scss */
+  /* line 783, ../sass/_main.scss */
   .slidesjs-slide {
     position: relative !important;
     left: 0 !important;
   }
 
-  /* line 789, ../sass/_main.scss */
+  /* line 798, ../sass/_main.scss */
   .slider-page .container-sidebar-right {
     min-height: 1170px;
   }
 }
-/* line 793, ../sass/_main.scss */
+/* line 802, ../sass/_main.scss */
 .bg-white {
   background: #fff;
+}
+
+/* line 815, ../sass/_main.scss */
+.filter-column1,
+.filter-column2 {
+  float: left;
+}
+
+/* line 819, ../sass/_main.scss */
+.filter-column1 {
+  width: 25%;
+  padding-right: 20px;
+}
+/* line 822, ../sass/_main.scss */
+.filter-column1 .inn {
+  min-height: 488px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px 10px;
+}
+/* line 827, ../sass/_main.scss */
+.filter-column1 .inn .heading {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+/* line 834, ../sass/_main.scss */
+.filter-column2 {
+  width: 75%;
 }
