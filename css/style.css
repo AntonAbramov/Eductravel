@@ -1039,9 +1039,9 @@
 }
 /* line 105, ../sass/_map.scss */
 .process-map .map-selects {
-  width: 25%;
+  width: 21%;
   float: left;
-  margin: 0 0 20px;
+  margin: 0 4% 20px 0;
 }
 /* line 111, ../sass/_map.scss */
 .process-map .map-pre {
@@ -2998,54 +2998,54 @@ input[type="password"]:hover {
   margin-right: 26px !important;
 }
 
-@media all and (max-width: 780px) {
-  /* line 780, ../sass/_main.scss */
+@media all and (max-width: 830px) {
+  /* line 776, ../sass/_main.scss */
   .slider-page .slidesjs-container, .slider-page .slidesjs-control {
     height: auto !important;
   }
 
-  /* line 783, ../sass/_main.scss */
+  /* line 779, ../sass/_main.scss */
   .slidesjs-slide {
     position: relative !important;
     left: 0 !important;
   }
 
-  /* line 798, ../sass/_main.scss */
+  /* line 783, ../sass/_main.scss */
   .slider-page .container-sidebar-right {
     min-height: 1170px;
   }
 }
-/* line 802, ../sass/_main.scss */
+/* line 787, ../sass/_main.scss */
 .bg-white {
   background: #fff;
 }
 
-/* line 815, ../sass/_main.scss */
+/* line 800, ../sass/_main.scss */
 .filter-column1,
 .filter-column2 {
   float: left;
 }
 
-/* line 819, ../sass/_main.scss */
+/* line 804, ../sass/_main.scss */
 .filter-column1 {
   width: 25%;
   padding-right: 20px;
 }
-/* line 822, ../sass/_main.scss */
+/* line 807, ../sass/_main.scss */
 .filter-column1 .inn {
   min-height: 488px;
   background: #f9f9f9;
   border: 1px solid #ddd;
   padding: 20px 10px;
 }
-/* line 827, ../sass/_main.scss */
+/* line 812, ../sass/_main.scss */
 .filter-column1 .inn .heading {
   text-transform: uppercase;
   font-size: 18px;
   margin: 0 0 10px;
 }
 
-/* line 834, ../sass/_main.scss */
+/* line 819, ../sass/_main.scss */
 .filter-column2 {
   width: 75%;
 }

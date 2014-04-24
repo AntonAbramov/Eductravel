@@ -772,11 +772,7 @@ input[type="password"]{
 .mr26 {
 	margin-right:26px!important;
 }
-
-@media all and (max-width: 780px){
-	//.slidesjs-container, .slidesjs-control {
-	//	height:auto!important;
-	//}
+@media all and (max-width: 830px){
 	.slider-page .slidesjs-container, .slider-page .slidesjs-control{
 		height:auto!important;
 	}
@@ -784,17 +780,6 @@ input[type="password"]{
 		position:relative!important;
 		left:0!important;
 	}
-	//.container-sidebar-right .content{
-	//		margin-right:0!important;
-	//	}
-
-	//.container-sidebar-right .sidebar {
-	//	width:auto!important;
-	//	position:relative!important;
-	//}
-	//.container-sidebar-right .contacts .icon {
-	//	display: none;
-	//}
 	.slider-page .container-sidebar-right {
 		min-height: 1170px;
 	}
