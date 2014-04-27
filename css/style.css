@@ -3040,7 +3040,7 @@ input[type="password"]:hover {
 .mr26:after {
   content: "";
   width: 26px;
-  height: 34px;
+  height: 30px;
   background: #6d6d6d;
   position: absolute;
   right: -26px;
