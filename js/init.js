@@ -24,12 +24,12 @@ $(document).ready(function () {
 	}
 	else if ($(window).width() <1200) {
 		$(".slider-page").slidesjs({
-			height: '940'
+			height: '980'
 		});
 	}
 	else {
 		$(".slider-page").slidesjs({
-			height: '860'
+			height: '980'
 		});
 	}
 	//tabs();
@@ -37,7 +37,7 @@ $(document).ready(function () {
 	popup();
 	customSelect();
 	customSelect2();
-	
+
 	if($(".carusel").length) {
 		$(".carusel").jCarouselLite({
 	        btnNext: ".next",

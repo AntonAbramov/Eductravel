@@ -8,7 +8,7 @@
 /* line 10, ../sass/600.scss */
 .container-sidebar-right .content {
   margin-right: 320px;
-  min-height: 500px;
+  min-height: 550px;
   margin-bottom: 0;
 }
 /* line 15, ../sass/600.scss */
@@ -22,10 +22,6 @@
 /* line 22, ../sass/600.scss */
 .container-sidebar-right .sidebar .agent a {
   margin-right: 2px;
-}
-/* line 26, ../sass/600.scss */
-.container-sidebar-right .sidebar .icons-user {
-  display: none;
 }
 
 /* line 32, ../sass/600.scss */
@@ -78,64 +74,75 @@
 .overlay-popup .popup .content {
   padding: 20px;
 }
-/* line 74, ../sass/600.scss */
+/* line 73, ../sass/600.scss */
+.overlay-popup .popup .content p {
+  line-height: 18px;
+}
+/* line 77, ../sass/600.scss */
 .overlay-popup .popup .close-popup-js {
   top: 10px;
 }
-/* line 78, ../sass/600.scss */
+/* line 81, ../sass/600.scss */
 .overlay-popup .popup .input-container .container:first-child {
   float: left;
 }
-/* line 81, ../sass/600.scss */
+/* line 84, ../sass/600.scss */
 .overlay-popup .popup .input-container .container {
   float: right;
   width: 260px;
 }
-/* line 84, ../sass/600.scss */
+/* line 87, ../sass/600.scss */
 .overlay-popup .popup .input-container .container input {
   margin-top: 15px;
   width: 100%;
 }
-/* line 87, ../sass/600.scss */
+/* line 90, ../sass/600.scss */
 .overlay-popup .popup .input-container .container input:first-child {
   margin-top: 0;
 }
-/* line 92, ../sass/600.scss */
+/* line 95, ../sass/600.scss */
 .overlay-popup .popup .input-container textarea {
   width: 100%;
   margin: 15px 0;
   resize: none;
+  height: 75px;
   border: 1px solid #ddd;
 }
-/* line 99, ../sass/600.scss */
+/* line 103, ../sass/600.scss */
 .overlay-popup .popup .subscribe {
   margin-top: 15px;
 }
+/* line 106, ../sass/600.scss */
+.overlay-popup .popup .btn.orange {
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+}
 
-/* line 105, ../sass/600.scss */
+/* line 114, ../sass/600.scss */
 .carusel,
 .carusel-video {
   margin: 0 auto;
 }
 
-/* line 109, ../sass/600.scss */
+/* line 118, ../sass/600.scss */
 .top-contacts-section {
   text-align: left;
 }
-/* line 111, ../sass/600.scss */
+/* line 120, ../sass/600.scss */
 .top-contacts-section .logo {
   max-width: 150px;
 }
-/* line 114, ../sass/600.scss */
+/* line 123, ../sass/600.scss */
 .top-contacts-section .logo, .top-contacts-section .adress {
   float: left;
 }
-/* line 116, ../sass/600.scss */
+/* line 125, ../sass/600.scss */
 .top-contacts-section .logo img, .top-contacts-section .adress img {
   width: 100%;
   max-height: 100%;
 }
-/* line 121, ../sass/600.scss */
+/* line 130, ../sass/600.scss */
 .top-contacts-section .top-img-container {
   max-width: 150px;
   float: left;
@@ -145,22 +152,24 @@
   padding-left: 10px;
   height: auto;
 }
-/* line 130, ../sass/600.scss */
+/* line 139, ../sass/600.scss */
 .top-contacts-section .top-img-container img {
   width: 100%;
   max-height: 100%;
 }
-/* line 135, ../sass/600.scss */
+/* line 144, ../sass/600.scss */
 .top-contacts-section .top-contacts {
   float: right;
 }
-/* line 140, ../sass/600.scss */
+/* line 149, ../sass/600.scss */
 .top-contacts-section .top-contacts .adress {
   float: left;
   text-align: right;
   font-size: 13px;
+  line-height: 14px;
+  margin-top: -4px;
 }
-/* line 145, ../sass/600.scss */
+/* line 156, ../sass/600.scss */
 .top-contacts-section .top-contacts .tel-holder {
   float: right;
   padding-left: 5px;
@@ -169,7 +178,7 @@
   box-shadow: 1px 0 0 #fff inset;
 }
 
-/* line 154, ../sass/600.scss */
+/* line 165, ../sass/600.scss */
 .pt8 {
   display: none !important;
 }

@@ -4,9 +4,10 @@
 	font-size: 14px;
 	color:#dddddd;
 	text-align:center;
+	line-height: 18px;
 	> .w960 {
 		padding-top:50px;
-		padding-bottom:50px;
+		padding-bottom:20px;
 	}
 	.copyright {
 		background: #373737;
@@ -44,6 +45,9 @@
 		font-family: helveticaneuecyrmedium;
 		color:#fff;
 		margin-bottom:10px;
+		> div {
+			margin-bottom:15px;
+		}
 		sub {
 			font-size: 18px;
 			color:#999999;

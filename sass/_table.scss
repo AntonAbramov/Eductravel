@@ -1,5 +1,6 @@
 .custom-table {
 	table {
+		line-height: 18px;
 		border:1px solid #ddd;
 		margin:0 ;
 		width:100%;
@@ -136,7 +137,7 @@
 	tr {
 		td {
 			background: #f9f9f9;
-			padding:10px 5px 5px 5px;
+			padding:10px 12px 5px 8px;
 			&:first-child {
 				font-family: $bold;
 				width:120px;

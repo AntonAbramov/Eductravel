@@ -96,7 +96,37 @@
   margin-right: 300px;
 }
 
-/* line 115, ../sass/992.scss */
+/* line 114, ../sass/992.scss */
+.container-sidebar-right .sidebar {
+  width: 300px;
+}
+/* line 117, ../sass/992.scss */
+.container-sidebar-right .sidebar .agent a {
+  margin-right: 20px;
+}
+/* line 120, ../sass/992.scss */
+.container-sidebar-right .sidebar .agent .icons-user {
+  display: inline-block;
+}
+/* line 125, ../sass/992.scss */
+.container-sidebar-right .sidebar .contacts h2 {
+  font-size: 24px;
+}
+/* line 128, ../sass/992.scss */
+.container-sidebar-right .sidebar .contacts ul li.phone {
+  font-size: 24px;
+}
+/* line 133, ../sass/992.scss */
+.container-sidebar-right .content {
+  margin-right: 320px;
+}
+
+/* line 139, ../sass/992.scss */
 .table-slide tr td:first-child {
   width: 200px;
+}
+
+/* line 144, ../sass/992.scss */
+.top-contacts-section .top-contacts .adress {
+  line-height: 18px;
 }

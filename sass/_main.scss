@@ -1,8 +1,9 @@
 body {
-	background: url(../img/main-bg.jpg) no-repeat 50% 48px #eeeeee;
+	background: url(../img/main-bg.jpg) no-repeat 50% 0 #fff;
 	font-size: 18px;
 	font-family: helveticaneuecyrlight;
 	color:#555;
+	line-height: 24px;
 	min-width: 768px;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -154,6 +155,7 @@ input[type="password"]{
 }
 .special-offer-section {
 	background: #f7f7f7;
+	margin-top:50px;
 	padding:30px 0;
 	.special-offer {
 		.post-list {
@@ -192,6 +194,7 @@ input[type="password"]{
 		p {
 			margin:0 0 7px;
 			font-size: 14px;
+			line-height: 18px;
 		}
 	}
 }
@@ -204,6 +207,7 @@ input[type="password"]{
 }
 .container-sidebar-right {
 	position:relative;
+	border:1px solid #ddd;
 	z-index: 1;
 	background: #f9f9f9;
 	.content {
@@ -219,8 +223,9 @@ input[type="password"]{
 	}
 	.sidebar {
 		background: #f9f9f9;
-		border: 1px solid #ddd;
-		padding:15px;
+		border-left: 1px solid #ddd;
+
+		padding:15px 10px;
 
 	}
 }
@@ -354,6 +359,7 @@ input[type="password"]{
 		.btn.gray {
 			text-transform: uppercase;
 			margin-right:20px;
+			padding-bottom: 2px;
 		}
 		
 		.load-file-text {
@@ -420,6 +426,7 @@ input[type="password"]{
 	.agent {
 		font-size:14px;
 		margin:0 0 20px;
+		position:relative;
 		a {
 			color:#ec8435;
 			margin-right:20px;
@@ -428,12 +435,17 @@ input[type="password"]{
 				text-decoration: none;
 			}
 		}
+		.icons-user {
+			position:absolute;
+			right:0;
+			top:0;
+		}
 	}
 	.official-site {
 		img {
 			display: block;
 			float:left;
-			margin:0 8px 20px 0;
+			margin:0 13px 20px 0;
 		}
 		.container {
 			float:left;
@@ -465,6 +477,7 @@ input[type="password"]{
 	margin-bottom:20px;
 	h3 {
 		padding-top:5px;
+		font-weight: normal;
 	}
 	.next, .prev, .next-video, .prev-video {
 		position:absolute;
@@ -488,6 +501,10 @@ input[type="password"]{
 		&:hover {
 			background: #ec8435;
 		}
+	}
+	li img{
+		border:3px solid #ddd;
+		border-radius: 3px;
 	}
 	.block-info-count {
 		right:30px;
@@ -556,6 +573,7 @@ input[type="password"]{
 			background: #e3e3e3;
 			padding:5px 10px;
 			font-family: $bold;
+			font-size: 16px;
 		}
 		.content {
 			padding:10px;
@@ -602,7 +620,6 @@ input[type="password"]{
 }
 .white-bg {
 	background: #fff;
-	padding-top:20px;
 }
 .site-map {
 
@@ -668,7 +685,8 @@ input[type="password"]{
 		font-size:12px;
 		color:#717171;
 		font-family: $bold;
-		padding:5px 20px 0 15px;
+		padding:0 20px 0 15px;
+		line-height: 24px;
 		white-space: nowrap;
 		text-overflow: ellipsis;
 
@@ -771,6 +789,18 @@ input[type="password"]{
 }
 .mr26 {
 	margin-right:26px!important;
+	position:relative;
+	&:after {
+		content:"";
+		width:26px;
+		height:34px;
+		background: #6d6d6d;
+		position:absolute;
+		right:-26px;
+		top:0;
+		border-top:1px solid #ddd;
+		border-right:1px solid #ddd;
+	}
 }
 @media all and (max-width: 830px){
 	.slider-page .slidesjs-container, .slider-page .slidesjs-control{
@@ -818,4 +848,25 @@ input[type="password"]{
 }
 .filter-column2 {
 	width:75%;
+}
+.icons-chat3 {
+	top:2px!important;
+}
+.brd-none {
+	border: none!important;
+}
+.bg-none {
+	background: none!important;
+}
+.brd {
+	border:1px solid #ddd;
+}
+.bg-white {
+	background: #fff!important;
+}
+.to-upper {
+	text-transform: uppercase;
+}
+.to-upper.btn.orange {
+	padding-bottom: 1px;
 }

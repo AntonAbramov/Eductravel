@@ -170,10 +170,8 @@
 	}
 
 	.container-sidebar-right {
-		min-height: 1000px;
+		min-height: 1080px;
 		.content {
-			border-top:1px solid #ddd;
-			border-left:1px solid #ddd;
 			background: #f9f9f9;
 			margin-right:240px;
 			//min-height: 1000px;
@@ -184,5 +182,12 @@
 	}
 	.slidesjs-pagination {
 		display: none;
+	}
+	.slidesjs-slide {
+		h2 {
+			font-size:30px;
+			font-weight: normal;
+			color:#333;
+		}
 	}
 }

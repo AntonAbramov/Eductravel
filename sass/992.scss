@@ -110,12 +110,39 @@
 		}
 	}
 }
+.container-sidebar-right {
+		.sidebar {
+			width:300px;
+			.agent {
+				a {
+					margin-right:20px;
+				}
+				.icons-user {
+					display:inline-block;
+				}
+			}
+			.contacts {
+				h2 {
+					font-size: 24px;
+				}
+				ul li.phone {
+					font-size: 24px;
+				}
+			}
+		}
+		.content {
+			margin-right:320px;
+		}
+	}
 .table-slide {
 	tr {
 		td:first-child {
 			width:200px;
 		}
 	}
+}
+.top-contacts-section .top-contacts .adress {
+	line-height: 18px;
 }
 //.w600-side-block {
 //	position:relative;
