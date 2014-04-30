@@ -474,10 +474,11 @@ input[type="password"]{
 .picture-list,
 .video-list {
 	position:relative;
-	margin-bottom:20px;
+	margin-bottom:30px;
 	h3 {
 		padding-top:5px;
 		font-weight: normal;
+		margin-bottom:5px;
 	}
 	.next, .prev, .next-video, .prev-video {
 		position:absolute;
@@ -510,7 +511,7 @@ input[type="password"]{
 		right:30px;
 		position:absolute;
 		z-index: 2;
-		top:5px;
+		top:1px;
 		font-size:14px;
 		color:#ababab;
 	}
@@ -869,4 +870,8 @@ input[type="password"]{
 }
 .to-upper.btn.orange {
 	padding-bottom: 1px;
+}
+.post-list-items-info {
+	font-size: 14px;
+	color:#393939;
 }

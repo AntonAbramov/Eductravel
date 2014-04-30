@@ -124,7 +124,9 @@
 	width:100%;
 	word-break:break-all;
 	font-size:14px;
+	line-height: 14px;
 	color:#555555;
+
 
 	td {
 		border-bottom:1px solid #efefef;
@@ -137,7 +139,13 @@
 	tr {
 		td {
 			background: #f9f9f9;
-			padding:10px 12px 5px 8px;
+			padding:10px 12px 10px 8px;
+			p {
+				margin-bottom:0;
+			}
+			p + p {
+				margin-top:10px;
+			}
 			&:first-child {
 				font-family: $bold;
 				width:120px;

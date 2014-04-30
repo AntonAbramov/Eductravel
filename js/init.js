@@ -12,9 +12,16 @@ $(document).ready(function () {
 			height: '1500'
 		});
 	}
-	else if ($(window).width() <998) {
+	else if ($(window).width() <900) {
+
 		$(".slider-page").slidesjs({
-			height: '1200'
+			height: '1250'
+		});
+	}
+	else if ($(window).width() <998) {
+
+		$(".slider-page").slidesjs({
+			height: '1150'
 		});
 	}
 	else if ($(window).width() <1100) {
@@ -29,7 +36,7 @@ $(document).ready(function () {
 	}
 	else {
 		$(".slider-page").slidesjs({
-			height: '980'
+			height: '920'
 		});
 	}
 	//tabs();
