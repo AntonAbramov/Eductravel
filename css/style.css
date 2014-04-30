@@ -921,7 +921,7 @@
   top: 70px;
   width: 100%;
   left: 0;
-  z-index: 2;
+  z-index: 100;
   border: 1px solid #ec8435;
 }
 /* line 65, ../sass/_tabs.scss */
