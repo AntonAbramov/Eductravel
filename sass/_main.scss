@@ -447,6 +447,12 @@ input[type="password"]{
 			float:left;
 			margin:0 13px 20px 0;
 		}
+		.off-site-text {
+			font-size: 14px;
+			line-height: 16px;
+			color:#333;
+			margin-bottom: 15px;
+		}
 		.container {
 			float:left;
 			width:160px;
@@ -454,12 +460,12 @@ input[type="password"]{
 		}
 		.off-site-name {
 			color:#ec8435;
-			margin:0 0 15px;
+			margin:0 0 10px;
 			display: inline-block;
 			text-transform: uppercase;
 		}
 		.tax {
-			margin-top:20px;
+			//margin-top:20px;
 			color:#188ece;
 			display: inline-block;
 			text-transform: uppercase;
